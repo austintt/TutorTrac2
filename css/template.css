@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* line 1, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 #headerContainer {
   width: 100%; }
@@ -7,21 +8,44 @@ main {
   padding: 75px 0px 0px 0px; }
 
 /* line 7, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+=======
+/* line 1, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+#headerContainer {
+  width: 100%; }
+
+/* line 4, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+main {
+  padding: 75px 0px 0px 0px; }
+
+/* line 7, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+>>>>>>> origin/master
 #secondaryContainer {
   background-color: #646561;
   width: 100%;
   background-color: #646561;
   width: 100%; }
+<<<<<<< HEAD
   /* line 12, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+=======
+  /* line 12, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+>>>>>>> origin/master
   #secondaryContainer .navbar-header .navbar-brand {
     color: #c8c8c8;
     font-size: 12px; }
 
+<<<<<<< HEAD
 /* line 17, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
   margin: 17px 0px 0px 0px; }
   /* line 21, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+=======
+/* line 17, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+.pagination {
+  float: right;
+  margin: 17x 0px 0px 0px; }
+  /* line 20, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+>>>>>>> origin/master
   .pagination li a {
     font-size: 13px;
     padding: 4px 6px;
@@ -29,6 +53,7 @@ main {
     color: #646464;
     border: 1px solid #646464; }
 
+<<<<<<< HEAD
 /* line 13, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .toolbarButton {
   background-color: #646561;
@@ -46,5 +71,10 @@ main {
 /* line 27, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .selectedFilter {
   color: #c5c5c3; }
+=======
+/* line 28, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+.left-col {
+  border-right: solid 1px lightgrey; }
+>>>>>>> origin/master
 
 /*# sourceMappingURL=template.css.map */
