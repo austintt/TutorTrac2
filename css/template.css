@@ -14,15 +14,22 @@ main {
   width: 100%; }
   /* line 12, /Users/weston/GitHub/TutorTrac2/css/template.scss */
   #secondaryContainer .navbar-header .navbar-brand {
-    color: #c8c8c8 !important;
-    font-size: 12px !important; }
+    color: #c8c8c8;
+    font-size: 12px; }
 
 /* line 17, /Users/weston/GitHub/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
-  margin: 10px 0px 0px 0px; }
+  margin: 17x 0px 0px 0px; }
+  /* line 20, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+  .pagination li a {
+    font-size: 13px;
+    padding: 4px 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #646464;
+    border: 1px solid #646464; }
 
-/* line 22, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 28, /Users/weston/GitHub/TutorTrac2/css/template.scss */
 .left-col {
   border-right: solid 1px lightgrey; }
 
