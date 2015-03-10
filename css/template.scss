@@ -4,8 +4,11 @@
 main {
     padding: 75px 0px 0px 0px;
 }
-
 #secondaryContainer {
- background-color: #646561;   
- width:100%;
+    background-color: #646561;
+    width: 100%;
+}
+.pagination {
+    float: right;
+    margin: 10px 0px 0px 0px;
 }
