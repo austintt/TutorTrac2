@@ -1,13 +1,14 @@
-/* line 1, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 1, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 #headerContainer {
   width: 100%; }
 
-/* line 4, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 4, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 main {
   padding: 75px 0px 0px 0px; }
 
-/*# sourceMappingURL=template.css.map */
+/* line 8, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+#secondaryContainer {
+  background-color: #646561;
+  width: 100%; }
 
-.whiteContainer {
-	color: white
-}
+/*# sourceMappingURL=template.css.map */
