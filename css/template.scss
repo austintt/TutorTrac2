@@ -41,3 +41,20 @@ main {
 .left-col {
     border-right: solid 1px lightgrey;
 }
+    
+.toolbarButton {
+    background-color: #646561;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.toolbarButton:hover {
+    background-color: #8b8b88;
+}
+
+.open .btn {
+    background-color: #8b8b88 !important;
+}
+
+.selectedFilter {
+ color: #c5c5c3;   
