@@ -9,9 +9,15 @@ main {
 /* line 7, /Users/weston/GitHub/TutorTrac2/css/template.scss */
 #secondaryContainer {
   background-color: #646561;
+  width: 100%;
+  background-color: #646561;
   width: 100%; }
+  /* line 12, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+  #secondaryContainer .navbar-header .navbar-brand {
+    color: #c8c8c8 !important;
+    font-size: 12px !important; }
 
-/* line 11, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 17, /Users/weston/GitHub/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
   margin: 10px 0px 0px 0px; }

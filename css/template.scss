@@ -7,6 +7,12 @@ main {
 #secondaryContainer {
     background-color: #646561;
     width: 100%;
+    background-color: #646561;
+    width: 100%;
+    .navbar-header .navbar-brand {
+        color: rgb(200, 200, 200) !important;
+        font-size: 12px !important;
+    }
 }
 .pagination {
     float: right;
