@@ -1,5 +1,9 @@
-/* line 1, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 1, /Users/weston/GitHub/TutorTrac2/css/template.scss */
 #headerContainer {
   width: 100%; }
+
+/* line 4, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+main {
+  padding: 75px 0px 0px 0px; }
 
 /*# sourceMappingURL=template.css.map */
