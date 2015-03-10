@@ -11,4 +11,9 @@ main {
   background-color: #646561;
   width: 100%; }
 
+#secondaryContainer .navbar-brand {
+        color: rgb(200, 200, 200);
+        font-size: 14px;
+    }
+
 /*# sourceMappingURL=template.css.map */
