@@ -4,8 +4,45 @@
 main {
     padding: 75px 0px 0px 0px;
 }
-
 #secondaryContainer {
- background-color: #646561;   
- width:100%;
+    background-color: #646561;
+    width: 100%;
+    background-color: #646561;
+    width: 100%;
+    .navbar-header .navbar-brand {
+        color: rgb(200, 200, 200);
+        font-size: 12px;
+    }
+}
+<<<<<<< HEAD
+
+.toolbarButton {
+    background-color: #646561;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.toolbarButton:hover {
+    background-color: #8b8b88;
+}
+
+.open .btn {
+    background-color: #8b8b88 !important;
+}
+
+.selectedFilter {
+ color: #c5c5c3;   
+=======
+.pagination {
+    float: right;
+    margin: 17px 0px 0px 0px;
+    
+    li a {
+        font-size: 13px;
+        padding: 4px 6px;
+        background-color: rgba(255, 255, 255, 0.4);
+        color: rgb(100, 100, 100);
+        border: 1px solid rgb(100, 100, 100);
+    }
+>>>>>>> origin/master
 }
