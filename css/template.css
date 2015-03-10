@@ -22,4 +22,8 @@ main {
   float: right;
   margin: 10px 0px 0px 0px; }
 
+/* line 22, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+.left-col {
+  border-right: solid 1px lightgrey; }
+
 /*# sourceMappingURL=template.css.map */
