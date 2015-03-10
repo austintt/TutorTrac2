@@ -1,25 +1,32 @@
-/* line 1, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 1, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 #headerContainer {
   width: 100%; }
 
-/* line 4, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 4, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 main {
   padding: 75px 0px 0px 0px; }
 
-/* line 7, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 7, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 #secondaryContainer {
   background-color: #646561;
   width: 100%;
   background-color: #646561;
   width: 100%; }
-  /* line 12, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+  /* line 12, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   #secondaryContainer .navbar-header .navbar-brand {
-    color: #c8c8c8 !important;
-    font-size: 12px !important; }
+    color: #c8c8c8;
+    font-size: 12px; }
 
-/* line 17, /Users/weston/GitHub/TutorTrac2/css/template.scss */
+/* line 17, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
-  margin: 10px 0px 0px 0px; }
+  margin: 17px 0px 0px 0px; }
+  /* line 21, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  .pagination li a {
+    font-size: 13px;
+    padding: 4px 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #646464;
+    border: 1px solid #646464; }
 
 /*# sourceMappingURL=template.css.map */

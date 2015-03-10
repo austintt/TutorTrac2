@@ -10,11 +10,19 @@ main {
     background-color: #646561;
     width: 100%;
     .navbar-header .navbar-brand {
-        color: rgb(200, 200, 200) !important;
-        font-size: 12px !important;
+        color: rgb(200, 200, 200);
+        font-size: 12px;
     }
 }
 .pagination {
     float: right;
-    margin: 10px 0px 0px 0px;
+    margin: 17px 0px 0px 0px;
+    
+    li a {
+        font-size: 13px;
+        padding: 4px 6px;
+        background-color: rgba(255, 255, 255, 0.4);
+        color: rgb(100, 100, 100);
+        border: 1px solid rgb(100, 100, 100);
+    }
 }
