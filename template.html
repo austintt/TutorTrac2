@@ -82,16 +82,20 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
-                      <button class="btn btn-default dropdown-toggle toolbarButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                        Filter <span class="glyphicon glyphicon-filter" aria-hidden="true"></span> <span class="selectedFilter">All Courses</span>
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All Courses</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 470</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">FDREL 212</a></li>
-                      </ul>
+                        <button class="btn btn-default dropdown-toggle toolbarButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            Filter <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>  <span class="selectedFilter">All Courses</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All Courses</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 470</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">FDREL 212</a>
+                            </li>
+                        </ul>
                     </div>
                 </ul>
 
@@ -105,21 +109,34 @@
             </div>
         </div>
     </main>
-    
+
     <div id="register" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> 
                     </button>
                     <h4 class="modal-title">CS 124</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-xs-4 left-col">
-                            <h3>test</h3>
+                        <div class="apt-info col-xs-5 left-col">
+                            <div class="center">
+                                <img src="images/profileIcon.png" id="tutor-icon" alt="">
+                            </div>
+                            <h3>John Smith</h3>
+                            <div class="tut-details">
+                                <strong>(208) 479-5393</strong>
+                                <strong>john@byui.edu</strong>
+                            </div>
+                            <ul class="apt-details">
+                                <li>AUS 210</li>
+                                <li>3:00 p.m.</li>
+                                <li>Not Recurring</li>
+                                <li>1-on-1 Appointment</li>    
+                            </ul>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-xs-7">
                             <h3>test</h3>
                         </div>
                     </div>
@@ -188,6 +205,7 @@
 
         });
     });
+    $('#register').modal()
 </script>
 
 </html>

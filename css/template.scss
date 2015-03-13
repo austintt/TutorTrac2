@@ -58,3 +58,38 @@ main {
 
 .selectedFilter {
  color: #c5c5c3;   
+}
+}
+#tutor-icon {
+    height: 100px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right !important;
+}
+
+.apt-info {
+    border-right:solid 1px lightgrey;
+}
+
+.tut-details strong {
+    display:block;
+}
+
+.tut-details {
+    padding-left: 15px;
+}
+
+.apt-details {
+    padding-left: 0px;
+    padding-top: 10px;
+    
+    li {
+        list-style-type: none;
+        font-weight: 700;
+    }
+}
