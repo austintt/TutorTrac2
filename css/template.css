@@ -71,10 +71,10 @@ main {
 
 /* line 75, /Users/weston/Desktop/TutorTrac2/css/template.scss */
 .apt-info {
-  border-right: solid 1px lightgrey; }
+  border-left: solid 1px lightgrey; }
 
 /* line 79, /Users/weston/Desktop/TutorTrac2/css/template.scss */
-.tut-details strong {
+.tut-details em {
   display: block; }
 
 /* line 83, /Users/weston/Desktop/TutorTrac2/css/template.scss */
@@ -89,5 +89,28 @@ main {
   .apt-details li {
     list-style-type: none;
     font-weight: 700; }
+
+/* line 97, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+.stu-img {
+  height: 75px;
+  width: 75px;
+  float: left; }
+  /* line 101, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  .stu-img img {
+    height: inherit;
+    width: inherit; }
+
+/* line 107, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+.stu-name {
+  display: block; }
+
+/* line 111, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+.form-container {
+  margin: 20px 0px 0px 0px; }
+
+/* line 115, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+.file-list {
+  list-style-type: none;
+  padding-left: 0px; }
 
 /*# sourceMappingURL=template.css.map */

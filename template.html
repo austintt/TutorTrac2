@@ -120,30 +120,58 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="apt-info col-xs-5 left-col">
+                        <div class="col-xs-5 left-col">
                             <div class="center">
                                 <img src="images/profileIcon.png" id="tutor-icon" alt="">
                             </div>
                             <h3>John Smith</h3>
                             <div class="tut-details">
-                                <strong>(208) 479-5393</strong>
-                                <strong>john@byui.edu</strong>
+                                <em>(208) 479-5393</em>
+                                <em>john@byui.edu</em>
                             </div>
                             <ul class="apt-details">
                                 <li>AUS 210</li>
                                 <li>3:00 p.m.</li>
                                 <li>Not Recurring</li>
-                                <li>1-on-1 Appointment</li>    
+                                <li>1-on-1 Appointment</li>
                             </ul>
                         </div>
                         <div class="col-xs-7">
-                            <h3>test</h3>
+                            <div class="stu-img">
+                                <img src="images/profileIcon.png" alt="">
+                            </div>
+                            <div class="stu-name">
+                                <h4>Han Solo</h4>
+                                <em>trusty@byui.edu</em> (<a href="#">edit</a>)
+                            </div>
+                            <div class="form-container">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="instructions">Additional Instructions</label>
+                                        <textarea class="form-control" rows="3" id="instructions"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="uploaded-files">Additional Materials</label>
+                                        <ul class="file-list" id="uploaded-files">
+                                            <li>to-edit.docx (<a href="@">delete</a>)</li>
+                                            <li>
+                                                <span class="glyphicon glyphicon-paperclip"></span>
+                                                <a href="#">upload document</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="feedback">Feedback</label>
+                                        <textarea disabled class="form-control" rows="3" id="feedback"></textarea>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Confirm Appointment</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
             <!-- /.modal-content -->
