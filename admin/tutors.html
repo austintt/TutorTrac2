@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Calendar -->
+    <link href='css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.cssfullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='lib/moment.min.js'></script>
+    <script src='lib/fullcalendar.min.js'></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/template.css" />
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div id="headerContainer" class="container">
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">TutorTrac 2</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" target="_blank">Tools</a>
+                    </li>
+                    <li><a href="#" target="_blank">Profile</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="toolbar">
+        <div class="tab selected col-xs-3 col-sm-2">TUTORS</div>
+        <div class="tab col-xs-3 col-sm-2">CENTERS</div>
+        <div class="tab col-xs-3 col-sm-2">VIDEOS</div>
+        <div class="tab col-xs-3 col-sm-2">TOOLS</div>
+    </div>
+    <div class="search-bar">
+        <div class="col-xs-10 col-sm-4">
+            <form action="">
+                <input type="email" class="form-control narrow" id="exampleInputEmail1" placeholder="Search tutors">
+            </form>
+        </div>
+        <div class="col-xs-2 col-sm-8">
+            <span class="glyphicon glyphicon-plus pull-right add-tutor"></span>
+        </div>
+    </div>
+    <main class="admin container">
+        <div class="col-sm-4 left-col">
+            <div>
+                <form action="">
+                    <h4>Tutoring Centers <input type="checkbox"></h4>
+                    <div class="checkbox filter-form">
+                        <label>
+                            <input type="checkbox">Tutoring Center
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">PPC
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">Reading Center
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">Writing Center
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">Math Study Center
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="course-filters">
+                <form action="">
+                    <h4>Courses <input type="checkbox"></h4>
+                    <div class="checkbox filter-form">
+                        <label>
+                            <input type="checkbox">CS 124
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 165
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 235
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 237
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 238
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 306
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 364
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 380
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 490
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox">CS 124
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 165
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 235
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 237
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 238
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 306
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 364
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 380
+                        </label>
+                        <br>
+                        <label for="">
+                            <input type="checkbox">CS 490
+                        </label>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-8 tut-list">
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+            <div class="tut">
+                <div class="pull-left">
+                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                </div>
+                <div class="">
+                    <h4>Tom Riddle</h4>
+                    <h5>Hours worked: 12</h5>
+                    <a href="#" class="btn tut-btn btn-primary pull-right">View Profile</a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <div id="tutor-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span> 
+                    </button>
+                    <button type="button" class="close btn-edit">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    </button>
+                    <h4 class="modal-title">Tutor Details</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="tut-modal-img pull-left" src="../images/profileIcon.png" alt="">
+                            <h4 class="tut-name">Tom Riddle</h4>
+                            <h5>shallnotbenamed@byui.edu</h5>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="btn btn-primary">? Add Student ?</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4>Courses</h4>
+                            <ul class="tut-detail-list">
+                                <li>CS 124</li>
+                                <li>CS 165</li>
+                                <li>CS 237</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>Tutoring Centers</h4>
+                            <ul class="tut-detail-list">
+                                <li>BYUI Tutoring Center</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-xs-12">
+                            <h4>Schedule</h4>
+                            Calendar Here
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-xs-12">
+                            <h4>Strengths/Major</h4>
+                            <em>Computer Science</em>
+                            Strengths here
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-xs-12">
+                            <h4>Feedback</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit placeat repellendus, consequatur iste, doloremque a aliquam ea earum, illo, dolores iusto porro totam! Consectetur accusamus culpa, similique deserunt quae eligendi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.tut-btn').click(function () {
+            $('#tutor-modal').modal()
+        });
+    });
+</script>
+
+</html>

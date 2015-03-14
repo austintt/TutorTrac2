@@ -1,48 +1,104 @@
-@import url(template.css);
-/* line 4, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 1, /Users/seanpk/TutorTrac2/css/admin.scss */
 .toolbar {
   background-color: lightgrey;
   width: 100%;
   margin-top: 60px;
   padding-top: 17px;
   height: 50px; }
-  /* line 10, /Users/seanpk/TutorTrac2/css/admin.scss */
+  /* line 7, /Users/seanpk/TutorTrac2/css/admin.scss */
   .toolbar .tab {
     text-align: center;
     border-right: solid 1px grey;
     color: grey; }
-  /* line 16, /Users/seanpk/TutorTrac2/css/admin.scss */
+  /* line 12, /Users/seanpk/TutorTrac2/css/admin.scss */
   .toolbar .tab.selected {
     font-weight: 700;
     color: black; }
 
+/* line 17, /Users/seanpk/TutorTrac2/css/admin.scss */
+.search-bar {
+  background-color: #646561;
+  height: 35px;
+  padding-top: 4px;
+  color: white; }
+
 /* line 23, /Users/seanpk/TutorTrac2/css/admin.scss */
+.narrow {
+  height: 15px !important; }
+
+/* line 26, /Users/seanpk/TutorTrac2/css/admin.scss */
+.add-tutor {
+  margin-top: 5px; }
+
+/* line 29, /Users/seanpk/TutorTrac2/css/admin.scss */
+main.admin {
+  margin-top: 0px;
+  border-bottom: solid 2px #646561; }
+  /* line 31, /Users/seanpk/TutorTrac2/css/admin.scss */
+  main.admin .left-col {
+    border-right: solid 2px #646561; }
+
+/* line 37, /Users/seanpk/TutorTrac2/css/admin.scss */
+.filter-form {
+  max-height: 250px;
+  overflow: scroll; }
+
+/* line 41, /Users/seanpk/TutorTrac2/css/admin.scss */
+.course-filters {
+  border-top: solid 1px lightgray; }
+
+/* line 44, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tut-profile {
+  height: 50px;
+  margin-right: 10px; }
+
+/* line 48, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tut-btn {
+  margin-top: -47px;
+  padding: 4px 16px; }
+
+/* line 52, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tut {
+  border-bottom: solid 1px lightgrey; }
+
+/* line 55, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tut-list {
+  max-height: 440px;
+  overflow: scroll; }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 62, /Users/seanpk/TutorTrac2/css/admin.scss */
+  .left-col {
+    display: none; } }
+
+/* line 67, /Users/seanpk/TutorTrac2/css/admin.scss */
 .cell {
   padding: 100px 0px 80px 0px;
   text-align: center;
   font-size: 30px;
   background-color: darkgrey;
   margin-bottom: 30px; }
-  /* line 30, /Users/seanpk/TutorTrac2/css/admin.scss */
+  /* line 74, /Users/seanpk/TutorTrac2/css/admin.scss */
   .cell .count {
     margin-top: 20px;
     font-size: 20px; }
 
-/* line 36, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 80, /Users/seanpk/TutorTrac2/css/admin.scss */
 .plus {
   padding-top: 113px;
   padding-bottom: 114px; }
 
-/* line 41, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 86, /Users/seanpk/TutorTrac2/css/admin.scss */
 .back-button {
   margin-top: 10px; }
 
-/* line 45, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 90, /Users/seanpk/TutorTrac2/css/admin.scss */
 .edit-button {
   margin-top: 15px;
   font-size: 25px; }
 
-/* line 50, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 95, /Users/seanpk/TutorTrac2/css/admin.scss */
 .calc-icon {
   height: 60px;
   float: left;
@@ -50,24 +106,38 @@
   padding-right: 20px;
   margin-left: -10px; }
 
-/* line 58, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 103, /Users/seanpk/TutorTrac2/css/admin.scss */
 .centerHeader {
   margin-top: 30px; }
 
-/* line 62, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 107, /Users/seanpk/TutorTrac2/css/admin.scss */
 .otherTabs {
   margin-top: 20px; }
-  /* line 64, /Users/seanpk/TutorTrac2/css/admin.scss */
+  /* line 109, /Users/seanpk/TutorTrac2/css/admin.scss */
   .otherTabs .selected {
     background-color: gray; }
 
-/* line 69, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 114, /Users/seanpk/TutorTrac2/css/admin.scss */
 .tab-list {
   margin-top: 30px;
   font-size: 25px; }
 
-/* line 74, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 119, /Users/seanpk/TutorTrac2/css/admin.scss */
 .list-item {
   padding-bottom: 20px; }
+
+/* line 123, /Users/seanpk/TutorTrac2/css/admin.scss */
+.modal-dialog {
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+  width: auto !important; }
+
+/* line 129, /Users/seanpk/TutorTrac2/css/admin.scss */
+.btn-edit {
+  margin-right: 10px; }
+
+/* line 133, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tut-modal-img {
+  height: 150px; }
 
 /*# sourceMappingURL=admin.css.map */
