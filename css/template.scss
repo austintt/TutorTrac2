@@ -42,10 +42,6 @@ main {
     border-right: solid 1px lightgrey;
 }
     
-
-.selectedFilter {
- color: #c5c5c3;   
-}
 }
 #tutor-icon {
     height: 100px;
@@ -116,4 +112,8 @@ main {
 
 .open .btn {
     background-color: #8b8b88 !important;
+}
+
+.selectedFilter {
+ color: #c5c5c3;   
 }
