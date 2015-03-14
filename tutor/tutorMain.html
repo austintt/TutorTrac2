@@ -127,11 +127,12 @@
                           <!--APPOINTMENT TYPE-->
                            <div class="dropdown appntCreation">
                              <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                <span class="btnText">Type:</span> <span>1-On-1 </span>
+                                <span class="btnText">Type:</span> <span>Group </span>
                                 <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Group</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">One-on-one</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Drop-in</a></li>
                               </ul>
                             </div>
@@ -193,13 +194,13 @@
                             <!--REGISTRATION DEADLINE-->
                             <div class="input-group appntCreation">
                               <span class="input-group-addon short" id="basic-addon1">Deadline</span>
-                              <input type="text" class="form-control" placeholder="24" aria-describedby="basic-addon1">
+                              <input type="text" class="form-control" placeholder="24 hours" aria-describedby="basic-addon1">
                             </div>
                             
                             <!--MAX STUDENTS-->
                             <div class="input-group appntCreation">
                               <span class="input-group-addon short" id="basic-addon1">Max Students</span>
-                              <input type="text" class="form-control" placeholder="1" aria-describedby="basic-addon1">
+                              <input type="text" class="form-control" placeholder="4" aria-describedby="basic-addon1">
                             </div>
                             
                             <!--WEEKLY-->
@@ -242,15 +243,30 @@
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                    <!--Second Student-->
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">1. What is HTML?</a>
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                               <img src="../assets/dumbledore.png" class="smallProfilePic"> Albus Dumbledor
+                                               <br>
+                                               <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;harryPotterFan@hogwarts.edu
+                                                </a>
                                             </h4>
                                         </div>
                                         <div id="collapseTwo" class="panel-collapse collapse">
                                             <div class="panel-body">
-                                                <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                                                <b>Additional Instructions:</b>
+                                                <p>I'm looking for better techniques to organize the requirements of my plans. 
+                                                </p>
+                                                <div class="form-group">
+                                                    <label for="uploaded-files">Additional Materials</label>
+                                                        <p><span class="glyphicon glyphicon-paperclip"></span> to-edit.docx (<a href="@">View</a>)</p>
+                                                </div>
+                                                <b>Feedback:</b>
+                                                <p class="text-muted">Come back later to view a studen't feedback!
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
