@@ -117,4 +117,13 @@ main {
 .selectedFilter {
   color: #c5c5c3; }
 
+/* line 121, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.appntmntCreateBtn {
+  line-height: 13px;
+  width: 100%; }
+
+/* line 126, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.buttonList {
+  list-style-type: none; }
+
 /*# sourceMappingURL=template.css.map */
