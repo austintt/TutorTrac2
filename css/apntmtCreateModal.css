@@ -38,3 +38,7 @@
     margin-right: 4px;
     border-color: black;
 }
+
+.right {
+    float:right;
+}
