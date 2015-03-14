@@ -37,3 +37,40 @@
         padding-top: 113px;
         padding-bottom: 114px;
 }
+
+.back-button {
+    margin-top: 10px;
+}
+
+.edit-button {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.calc-icon {
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    padding-right: 20px;
+    margin-left: -10px;
+}
+
+.centerHeader {
+    margin-top: 30px;
+}
+
+.otherTabs {
+    margin-top: 20px;
+    .selected{
+        background-color: gray;
+    }
+}
+
+.tab-list {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.list-item {
+    padding-bottom: 20px;
+}
