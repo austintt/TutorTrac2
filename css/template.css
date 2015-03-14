@@ -110,7 +110,7 @@ main {
   background-color: #8b8b88; }
 
 /* line 113, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
-.open .btn {
+.open .toolbarButton {
   background-color: #8b8b88 !important; }
 
 /* line 117, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
@@ -125,5 +125,17 @@ main {
 /* line 126, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .buttonList {
   list-style-type: none; }
+
+/* line 130, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.appntmntCreateMenu {
+  width: 100%; }
+
+/* line 134, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.appntCreation {
+  margin-bottom: 10px; }
+
+/* line 138, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.btnText {
+  font-size: 12px; }
 
 /*# sourceMappingURL=template.css.map */

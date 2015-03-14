@@ -110,7 +110,7 @@ main {
     background-color: #8b8b88;
 }
 
-.open .btn {
+.open .toolbarButton {
     background-color: #8b8b88 !important;
 }
 
@@ -127,3 +127,14 @@ main {
     list-style-type: none;
 }
 
+.appntmntCreateMenu {
+    width: 100%;
+}
+
+.appntCreation {
+    margin-bottom: 10px;
+}
+
+.btnText {
+    font-size: 12px;
+}
