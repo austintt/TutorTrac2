@@ -1,116 +1,119 @@
-/* line 1, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 1, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 #headerContainer {
   width: 100%; }
 
-/* line 4, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 4, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 main {
   padding: 75px 0px 0px 0px; }
 
-/* line 7, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 7, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 #secondaryContainer {
   background-color: #646561;
   width: 100%;
   background-color: #646561;
   width: 100%; }
-  /* line 12, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 12, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   #secondaryContainer .navbar-header .navbar-brand {
     color: #c8c8c8;
     font-size: 12px; }
 
-/* line 18, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 18, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
   margin: 17px 0px 0px 0px; }
-  /* line 22, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 22, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .pagination li a {
     font-size: 13px;
     padding: 4px 6px;
     background-color: rgba(255, 255, 255, 0.4);
     color: #646464;
     border: 1px solid #646464; }
-  /* line 30, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 30, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .pagination .pagination {
     float: right;
     margin: 17x 0px 0px 0px; }
-    /* line 33, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+    /* line 33, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
     .pagination .pagination li a {
       font-size: 13px;
       padding: 4px 6px;
       background-color: rgba(255, 255, 255, 0.4);
       color: #646464;
       border: 1px solid #646464; }
-  /* line 41, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 41, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .pagination .left-col {
     border-right: solid 1px lightgrey; }
-  /* line 45, /Users/weston/Desktop/TutorTrac2/css/template.scss */
-  .pagination .toolbarButton {
-    background-color: #646561;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  /* line 51, /Users/weston/Desktop/TutorTrac2/css/template.scss */
-  .pagination .toolbarButton:hover {
-    background-color: #8b8b88; }
-  /* line 55, /Users/weston/Desktop/TutorTrac2/css/template.scss */
-  .pagination .open .btn {
-    background-color: #8b8b88 !important; }
-  /* line 59, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 46, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .pagination .selectedFilter {
     color: #c5c5c3; }
 
-/* line 63, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 50, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 #tutor-icon {
   height: 100px; }
 
-/* line 67, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 54, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .center {
   text-align: center; }
 
-/* line 71, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 58, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .right-align {
   text-align: right !important; }
 
-/* line 75, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 62, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .apt-info {
   border-left: solid 1px lightgrey; }
 
-/* line 79, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 66, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .tut-details em {
   display: block; }
 
-/* line 83, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 70, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .tut-details {
   padding-left: 15px; }
 
-/* line 87, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 74, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .apt-details {
   padding-left: 0px;
   padding-top: 10px; }
-  /* line 91, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 78, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .apt-details li {
     list-style-type: none;
     font-weight: 700; }
 
-/* line 97, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 84, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .stu-img {
   height: 75px;
   width: 75px;
   float: left; }
-  /* line 101, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+  /* line 88, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
   .stu-img img {
     height: inherit;
     width: inherit; }
 
-/* line 107, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 94, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .stu-name {
   display: block; }
 
-/* line 111, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 98, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .form-container {
   margin: 20px 0px 0px 0px; }
 
-/* line 115, /Users/weston/Desktop/TutorTrac2/css/template.scss */
+/* line 102, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
 .file-list {
   list-style-type: none;
   padding-left: 0px; }
+
+/* line 107, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.toolbarButton {
+  background-color: #646561;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* line 113, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.toolbarButton:hover {
+  background-color: #8b8b88; }
+
+/* line 117, /Users/Austin/Google Drive/School/CS 364 - Software Engineering 1/TutorTrac2/css/template.scss */
+.open .btn {
+  background-color: #8b8b88 !important; }
 
 /*# sourceMappingURL=template.css.map */
