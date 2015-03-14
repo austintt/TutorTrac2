@@ -15,6 +15,74 @@ main {
     }
 }
 
+main.container {
+    width: 100%;
+    padding: 0px;
+    margin-top: 125px;
+    
+    & > header {
+        display: flex;
+        color: rgb(200, 200, 200);
+        background-color: rgb(80, 80, 80);
+        
+        div {
+            flex-grow: 1;
+            padding: 6px;
+            text-align: center;
+            
+            &:first-child {
+                flex-grow: 0;
+                width: 70px;
+            }
+        }
+    }
+    
+    section {
+        height: 50px;
+        display: flex;
+        
+        &:nth-child(odd) {
+            background-color: rgba(180, 180, 180, 0.1);
+        }
+        
+        &:nth-child(even) {
+            background-color: rgba(180, 180, 180, 0.2);
+        }
+        
+        header {
+            width: 70px;
+            display: flex;
+            padding-right: 5px;
+            background-color: rgba(100, 100, 100, 0.9);
+            justify-content: flex-end;
+            align-items: center;
+            color: rgb(220, 220, 220);
+            border-right: 2px solid rgb(50, 50, 50);
+            border-bottom: 1px solid rgb(50, 50, 50);
+        }
+        
+        div {
+            flex-grow: 1;
+            width: 100px;
+            height: 100%;
+            border-right: 1px solid rgb(200, 200, 200);
+            border-bottom: 1px dashed rgb(190, 190, 190);
+            padding: 2px;
+            
+            span {
+                width: 100%;
+                height: 100%;
+                display: block;
+                color: rgb(240, 240, 240);
+                padding: 5px;
+                background-color: rgb(20, 140, 120);
+                border-radius: 3px;
+                box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
 .pagination {
     float: right;
     margin: 17px 0px 0px 0px;
@@ -110,10 +178,31 @@ main {
     background-color: #8b8b88;
 }
 
-.open .btn {
+.open .toolbarButton {
     background-color: #8b8b88 !important;
 }
 
 .selectedFilter {
  color: #c5c5c3;   
+}
+
+.appntmntCreateBtn {
+    line-height: 13px;
+    width: 100%;
+}
+
+.buttonList {
+    list-style-type: none;
+}
+
+.appntmntCreateMenu {
+    width: 100%;
+}
+
+.appntCreation {
+    margin-bottom: 10px;
+}
+
+.btnText {
+    font-size: 12px;
 }
