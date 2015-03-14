@@ -84,7 +84,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
                         <button class="btn btn-default toolbarButton" id="filter">Filter</button>
-                        <button class="btn btn-default toolbarButton"><span class="glyphicon glyphicon-plus"></span></button>  
+                        <button class="btn btn-default toolbarButton" id="add"><span class="glyphicon glyphicon-plus"></span></button>  
                     </div>
                 </ul>
             </div>
@@ -404,7 +404,12 @@
     <!-- /.modal -->
 </body>
 <script type="text/javascript">
-    $('#register').modal()
+    $('#register').modal();
+    
+    
+    $('#add').click(function() {
+    $('#register').modal();
+    });
     
     $("#filter").click(function() {
         var $filters = $("main.container aside");
