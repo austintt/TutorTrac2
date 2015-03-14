@@ -144,15 +144,16 @@ main.container {
                             height: 12px;
                             background-color: rgba(200, 200, 200, 0.4);
                             border-radius: 2px;
-                            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+                            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
                             margin-right: 8px;
                             position: relative;
                             
-                            .checked {
+                            i {
+                                font-size: 14px;
                                 display: block;
                                 position: absolute;
-                                top: 0;
-                                left: 0;
+                                bottom: -2px;
+                                left: 1px;
                             }
                         }
                     }
