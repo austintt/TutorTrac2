@@ -1,6 +1,7 @@
 .appntmntCreateBtn {
     line-height: 13px;
     width: 100%;
+    
 }
 
 .buttonList {
@@ -17,4 +18,8 @@
 
 .btnText {
     font-size: 12px;
+}
+
+.short {
+    line-height: 13px;
 }
