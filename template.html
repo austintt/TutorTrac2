@@ -82,20 +82,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle toolbarButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                            Filter 
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Courses</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tutoring Centers</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tutors</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Locations</a>
-                            </li>
-                        </ul>
+                        <button class="btn btn-default toolbarButton" id="filter">Filter</button>
                         <button class="btn btn-default toolbarButton"><span class="glyphicon glyphicon-plus"></span></button>  
                     </div>
                 </ul>
@@ -220,6 +207,22 @@
             <div></div>
             <div></div>
         </section>
+        <aside>
+            <ul>
+              <li><div>Tutor Centers</div></li>
+                <li><div>Courses</div>
+                   <ul>
+                       <li>CIT 370</li>
+                       <li>CS 364</li>
+                       <li>CS 470</li>
+                       <li>FDCA 205</li>
+                   </ul>
+               </li>
+               <li><div>Tutors</div></li>
+               <li><div>Locations</div></li>
+               <li><div>Scheduled Appointments</div></li>
+            </ul>
+        </aside>
     </main>
 
     <div id="register" class="modal fade">
@@ -293,59 +296,16 @@
     <!-- /.modal -->
 </body>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('#calendar').fullCalendar({
-            defaultView: 'agendaWeek',
-            defaultDate: '2015-03-10',
-            editable: true,
-            eventLimit: true,
-            scrollTime: "8:00:00",
-            header: {
-                left: 'prev,next today',
-                center: 'title',
-                right: ''
-            },
-            eventSources: [
-                {
-                    events: [
-                        {
-                            title: 'event1',
-                            start: '2015-03-10 12:30:00'
-                        },
-                        {
-                            title: 'event2',
-                            start: '2015-03-11 14:30:00'
-                        },
-                        {
-                            title: 'event3',
-                            start: '2015-03-12 13:30:00'
-                        }
-                    ],
-                    color: 'seagreen'
-                },
-                {
-                    events: [
-                        {
-                            title: 'event1',
-                            start: '2015-03-10 10:30:00'
-                        },
-                        {
-                            title: 'event2',
-                            start: '2015-03-11 9:30:00'
-                        },
-                        {
-                            title: 'event3',
-                            start: '2015-03-12 8:30:00'
-                        }
-                    ],
-                    color: 'lightblue'
-                }
-
-            ]
-
-        });
+//    $('#register').modal()
+    
+    $("#filter").click(function() {
+        var $filters = $("main.container aside");
+        if ($filters.hasClass("show")) {
+            $filters.removeClass("show");
+        } else {
+            $filters.addClass("show");
+        }
     });
-    $('#register').modal()
 </script>
 
 </html>
