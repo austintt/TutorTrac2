@@ -23,3 +23,7 @@
 .short {
     width: 120px;
 }
+
+.largeCheck {
+  font-size:350%; 
+}
