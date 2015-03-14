@@ -1,2 +1,18 @@
 @import url(template.css);
+/* line 4, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.toolbar {
+  background-color: lightgrey;
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 17px;
+  height: 50px; }
+  /* line 10, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .toolbar .tab {
+    text-align: center;
+    color: grey; }
+  /* line 15, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .toolbar .tab.selected {
+    font-weight: 700;
+    color: black; }
+
 /*# sourceMappingURL=admin.css.map */
