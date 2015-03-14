@@ -15,6 +15,10 @@ main {
     }
 }
 
+*:focus {
+    outline: none !important;
+}
+
 main.container {
     width: 100%;
     padding: 0px;
@@ -116,9 +120,41 @@ main.container {
                     padding: 0;
                     
                     li {
-                        padding: 4px 12px;
+                        padding: 0px 12px;
                         background-color: rgba(200, 200, 200, 0.1);
                         border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+                        display: flex;
+                        align-items: center;
+                        
+                        &:after {
+                            content: " ";
+                            clear: both;
+                            display: block;
+                            height: 0px;
+                            opacity: 0;
+                        }
+                        
+                        span {
+                            display: block;
+                            float: left;
+                        }
+                        
+                        .checkbox {
+                            width: 12px;
+                            height: 12px;
+                            background-color: rgba(200, 200, 200, 0.4);
+                            border-radius: 2px;
+                            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+                            margin-right: 8px;
+                            position: relative;
+                            
+                            .checked {
+                                display: block;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
                     }
                 }
             }
