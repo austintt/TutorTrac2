@@ -74,10 +74,22 @@ main.container {
             height: 100%;
             border-right: 1px solid rgb(200, 200, 200);
             border-bottom: 1px dashed rgb(190, 190, 190);
-            padding: 2px;
+            position: relative;
+            
+            // Simulates past appointments
+            &:nth-of-type(1) .appointment,
+            &:nth-of-type(2) .appointment {
+                opacity: 0.3;
+            }
+            
+            // Simulates todays column selection
+            &:nth-of-type(3) {
+                background-color: rgba(40, 170, 200, 0.4);
+            }
             
             span {
-                width: 100%;
+                width: 98%;
+                margin-left: 1%;
                 height: 100%;
                 display: block;
                 color: rgb(240, 240, 240);
@@ -85,6 +97,66 @@ main.container {
                 background-color: rgb(20, 140, 120);
                 border-radius: 3px;
                 box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                top: 0;
+                left: 0;
+                
+                // Event types
+                
+                &.course {
+                    background-color: rgb(20, 140, 180);
+                }
+                
+                &.appointment {
+                    background-color: rgb(20, 140, 120);
+                }
+                
+                &.group {
+                    background-color: rgb(200, 140, 60);
+                }
+                
+                // Event time
+                
+                &.fifteen {
+                    top: 15%;
+                    z-index: 4;
+                }
+                
+                &.thirty {
+                    top: 50%;
+                    z-index: 4;
+                }
+                
+                &.fortyfive {
+                    top: 75%;
+                    z-index: 4;
+                }
+                
+                // Event length
+                
+                &.half {
+                    height: 50%;
+                    z-index: 4;
+                }
+                
+                &.hourhalf {
+                    height: 150%;
+                    z-index: 4;
+                }
+                
+                &.twohour {
+                    height: 200%;
+                }
+                
+                &.threehour {
+                    height: 300%;
+                    z-index: 4;
+                }
+                
+                &.fourhour {
+                    height: 400%;
+                    z-index: 4;
+                }
             }
         }
     }
@@ -99,6 +171,7 @@ main.container {
         background-color: rgb(40, 40, 40);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
         transition: 0.4s right;
+        z-index: 1000;
         
         &.show {
             right: 0;
