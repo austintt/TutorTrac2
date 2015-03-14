@@ -213,38 +213,41 @@
                         
                         <!--2nd COLUMN-->
                         <div class="apt-info col-xs-7">
-                            <div class="stu-img">
-                                <img src="../images/profileIcon.png" alt="">
-                            </div>
                             <div class="stu-name">
-                                <h4>Han Solo</h4>
-                                <em>trusty@byui.edu</em> (<a href="#">edit</a>)
+                                <h4>Students:</h4>
                             </div>
-                            <div class="form-container">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="instructions">Additional Instructions</label>
-                                        <textarea class="form-control" rows="3" id="instructions"></textarea>
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                Tom Riddle &nbsp;<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> &nbsp;darkLord@pureblood.net
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                               <img src="../assets/voldemort.png" class="smallProfilePic">
+                                                <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="uploaded-files">Additional Materials</label>
-                                        <ul class="file-list" id="uploaded-files">
-                                            <li>to-edit.docx (<a href="@">delete</a>)</li>
-                                            <li>
-                                                <span class="glyphicon glyphicon-paperclip"></span>
-                                                <a href="#">upload document</a>
-                                            </li>
-                                        </ul>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">1. What is HTML?</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="feedback">Feedback</label>
-                                        <textarea disabled class="form-control" rows="3" id="feedback"></textarea>
-                                    </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success">Confirm Appointment</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
