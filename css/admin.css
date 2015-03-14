@@ -1,18 +1,75 @@
-@import url(template.css);
-/* line 4, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 1, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
 .toolbar {
   background-color: lightgrey;
   width: 100%;
   margin-top: 60px;
   padding-top: 17px;
   height: 50px; }
-  /* line 10, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 7, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
   .toolbar .tab {
     text-align: center;
+    border-right: solid 1px grey;
     color: grey; }
-  /* line 15, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 12, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
   .toolbar .tab.selected {
     font-weight: 700;
     color: black; }
+
+/* line 17, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.search-bar {
+  background-color: #646561;
+  height: 35px;
+  padding-top: 4px;
+  color: white; }
+
+/* line 23, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.narrow {
+  height: 15px !important; }
+
+/* line 26, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.add-tutor {
+  margin-top: 5px; }
+
+/* line 29, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+main.admin {
+  margin-top: 0px;
+  border-bottom: solid 2px #646561; }
+  /* line 31, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  main.admin .left-col {
+    border-right: solid 2px #646561; }
+
+/* line 37, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.filter-form {
+  max-height: 250px;
+  overflow: scroll; }
+
+/* line 41, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.course-filters {
+  border-top: solid 1px lightgray; }
+
+/* line 44, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-profile {
+  height: 50px;
+  margin-right: 10px; }
+
+/* line 48, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-btn {
+  margin-top: -47px;
+  padding: 4px 16px; }
+
+/* line 52, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut {
+  border-bottom: solid 1px lightgrey; }
+
+/* line 55, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-list {
+  max-height: 440px;
+  overflow: scroll; }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 62, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .left-col {
+    display: none; } }
 
 /*# sourceMappingURL=admin.css.map */
