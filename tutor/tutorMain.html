@@ -33,6 +33,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="../css/template.css" />
+    <link rel="stylesheet" href="../css/apntmtCreateModal.css" />
 </head>
 
 <body>
@@ -82,35 +83,154 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle toolbarButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                            Filter 
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Courses</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tutoring Centers</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tutors</a>
-                            </li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Locations</a>
-                            </li>
-                        </ul>
-                        <button class="btn btn-default toolbarButton"><span class="glyphicon glyphicon-plus"></span></button>  
+                        <button class="btn btn-default toolbarButton" id="filter">Filter</button>
+                        <button class="btn btn-default toolbarButton" id="add"><span class="glyphicon glyphicon-plus"></span></button>  
                     </div>
                 </ul>
             </div>
         </div>
     </div>
-    <main class="container">
-        <div class="row">
-            <div class="col-all-12">
-                <div id="calendar"></div>
-            </div>
-        </div>
+       <main class="container">
+        <header>
+            <div>&nbsp;</div>
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+        </header>
+        <section>
+            <header>8:00 am</header>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+        </section>
+        <section>
+            <header>9:00 am</header>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>10:00 am</header>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>11:00 am</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>12:00 pm</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+        </section>
+        <section>
+            <header>1:00 pm</header>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>2:00 pm</header>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>3:00 pm</header>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>4:00 pm</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>5:00 pm</header>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>6:00 pm</header>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+            <div></div>
+            <div></div>
+            <div><span>Appointment</span></div>
+        </section>
+        <section>
+            <header>7:00 pm</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <aside>
+            <ul>
+              <li><div>Tutor Centers</div></li>
+                <li><div>Courses</div>
+                   <ul>
+                       <li>
+                           <span class="checkbox"><i>✓</i></span>
+                           <span>CIT 370</span>
+                        </li>
+                       <li>CS 364</li>
+                       <li>CS 470</li>
+                       <li>FDCA 205</li>
+                   </ul>
+               </li>
+               <li><div>Tutors</div></li>
+               <li><div>Locations</div></li>
+               <li><div>Scheduled Appointments</div></li>
+            </ul>
+        </aside>
     </main>
 
-    <div id="register" class="modal fade">
+   <!-- MODAL -->
+    <div id="create" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -121,20 +241,25 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-xs-5 left-col">
+                          
+                          <!--APPOINTMENT TYPE-->
                            <div class="dropdown appntCreation">
                              <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                <span class="btnText">Type:</span> <span>1-On-1 </span>
-                                <span class="caret"></span>
+                                <span class="btnText">Type:</span> <span>Group </span>
+                                <span class="caret right"></span>
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Group</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">One-on-one</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Drop-in</a></li>
                               </ul>
                             </div>
+                            
+                            <!--COURSE-->
                             <div class="dropdown appntCreation">
                              <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
                                 <span class="btnText">Course:</span> <span>CS 364 </span>
-                                <span class="caret"></span>
+                                <span class="caret right"></span>
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
@@ -143,10 +268,12 @@
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
                               </ul>
                             </div>
+                            
+                            <!--DATE-->
                             <div class="dropdown appntCreation">
                              <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                <span class="btnText">Date:</span> <span>ADD DATE PICKER</span>
-                                <span class="caret"></span>
+                                <span class="btnText">Date:</span> <span>Wed 4/8/15</span>
+                                <span class="caret right"></span>
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
@@ -155,50 +282,137 @@
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
                               </ul>
                             </div>
-                            <div class="tut-details">
+                            
+                            <!--TIME-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Time:</span> <span>10:00am</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 124</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 308</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
+                              </ul>
                             </div>
-                            <ul class="apt-details">
-                                <li>AUS 210</li>
-                                <li>3:00 p.m.</li>
-                                <li>Not Recurring</li>
-                                <li>1-on-1 Appointment</li>
-                            </ul>
+                            
+                            <!--LOCATION-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Location:</span> <span>Linux Lab</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Austin 210</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Parkinglot</a></li>
+                              </ul>
+                            </div>
+                            
+                            <!--REGISTRATION DEADLINE-->
+                            <div class="input-group appntCreation">
+                              <span class="input-group-addon short" id="basic-addon1">Deadline</span>
+                              <input type="text" class="form-control" placeholder="24 hours" aria-describedby="basic-addon1">
+                            </div>
+                            
+                            <!--MAX STUDENTS-->
+                            <div class="input-group appntCreation">
+                              <span class="input-group-addon short" id="basic-addon1">Max Students</span>
+                              <input type="text" class="form-control" placeholder="4" aria-describedby="basic-addon1">
+                            </div>
+                            
+                            <!--WEEKLY-->
+                            <div class="input-group appntCreation">
+                              <span class="input-group-addon short" id="basic-addon1">Recurring Weekly</span>
+                              <span class="input-group-addon">
+                                <input type="checkbox" class="largeCheck">
+                              </span>
+                            </div>
+                            
+<!--
+                            <div class="input-group appntCreation">
+                              <div class="input-group-btn">
+                                <button type="button" class="btn btn-info">Action</button>
+                                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                  <span class="caret"></span>
+                                  <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Action</a></li>
+                                  <li><a href="#">Another action</a></li>
+                                  <li><a href="#">Something else here</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </div>
+-->
                         </div>
+                        
+                        <!--2nd COLUMN-->
                         <div class="apt-info col-xs-7">
-                            <div class="stu-img">
-                                <img src="../images/profileIcon.png" alt="">
-                            </div>
                             <div class="stu-name">
-                                <h4>Han Solo</h4>
-                                <em>trusty@byui.edu</em> (<a href="#">edit</a>)
+                                <h4>Students: 2/4</h4>
                             </div>
-                            <div class="form-container">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="instructions">Additional Instructions</label>
-                                        <textarea class="form-control" rows="3" id="instructions"></textarea>
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                               <img src="../assets/voldemort.png" class="smallProfilePic"> Tom Riddle
+                                               <br>
+                                               <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;darkLord@pureblood.net
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <b>Additional Instructions:</b>
+                                                <p>I'm looking for better techniques to organize the requirements of my plans. 
+                                                </p>
+                                                <div class="form-group">
+                                                    <label for="uploaded-files">Additional Materials</label>
+                                                        <p><span class="glyphicon glyphicon-paperclip"></span> to-edit.docx (<a href="@">View</a>)</p>
+                                                </div>
+                                                <b>Feedback:</b>
+                                                <p class="text-muted">Come back later to view a studen't feedback!
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="uploaded-files">Additional Materials</label>
-                                        <ul class="file-list" id="uploaded-files">
-                                            <li>to-edit.docx (<a href="@">delete</a>)</li>
-                                            <li>
-                                                <span class="glyphicon glyphicon-paperclip"></span>
-                                                <a href="#">upload document</a>
-                                            </li>
-                                        </ul>
+                                    
+                                    <!--Second Student-->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                               <img src="../assets/dumbledore.png" class="smallProfilePic"> Albus Dumbledor
+                                               <br>
+                                               <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;harryPotterFan@hogwarts.edu
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <b>Additional Instructions:</b>
+                                                <p>I'm looking for better techniques to organize the requirements of my plans. 
+                                                </p>
+                                                <div class="form-group">
+                                                    <label for="uploaded-files">Additional Materials</label>
+                                                        <p><span class="glyphicon glyphicon-paperclip"></span> to-edit.docx (<a href="@">View</a>)</p>
+                                                </div>
+                                                <b>Feedback:</b>
+                                                <p class="text-muted">Come back later to view a studen't feedback!
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="feedback">Feedback</label>
-                                        <textarea disabled class="form-control" rows="3" id="feedback"></textarea>
-                                    </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Confirm Appointment</button>
+                    <button type="button" class="btn btn-success">Save Appointment</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
@@ -209,59 +423,21 @@
     <!-- /.modal -->
 </body>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('#calendar').fullCalendar({
-            defaultView: 'agendaWeek',
-            defaultDate: '2015-03-10',
-            editable: true,
-            eventLimit: true,
-            scrollTime: "8:00:00",
-            header: {
-                left: 'prev,next today',
-                center: 'title',
-                right: ''
-            },
-            eventSources: [
-                {
-                    events: [
-                        {
-                            title: 'event1',
-                            start: '2015-03-10 12:30:00'
-                        },
-                        {
-                            title: 'event2',
-                            start: '2015-03-11 14:30:00'
-                        },
-                        {
-                            title: 'event3',
-                            start: '2015-03-12 13:30:00'
-                        }
-                    ],
-                    color: 'seagreen'
-                },
-                {
-                    events: [
-                        {
-                            title: 'event1',
-                            start: '2015-03-10 10:30:00'
-                        },
-                        {
-                            title: 'event2',
-                            start: '2015-03-11 9:30:00'
-                        },
-                        {
-                            title: 'event3',
-                            start: '2015-03-12 8:30:00'
-                        }
-                    ],
-                    color: 'lightblue'
-                }
-
-            ]
-
-        });
+    $('#create').modal();
+    
+    
+    $('#add').click(function() {
+    $('#create').modal();
     });
-    $('#register').modal()
+    
+    $("#filter").click(function() {
+        var $filters = $("main.container aside");
+        if ($filters.hasClass("show")) {
+            $filters.removeClass("show");
+        } else {
+            $filters.addClass("show");
+        }
+    });
 </script>
 
 </html>

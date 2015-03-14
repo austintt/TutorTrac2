@@ -15,10 +15,16 @@ main {
     }
 }
 
+*:focus {
+    outline: none !important;
+}
+
 main.container {
     width: 100%;
     padding: 0px;
     margin-top: 125px;
+    position: relative;
+    overflow-x: hidden;
     
     & > header {
         display: flex;
@@ -27,6 +33,7 @@ main.container {
         
         div {
             flex-grow: 1;
+            width: 100px;
             padding: 6px;
             text-align: center;
             
@@ -78,6 +85,80 @@ main.container {
                 background-color: rgb(20, 140, 120);
                 border-radius: 3px;
                 box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+    
+    aside {
+        position: absolute;
+        top: 0;
+        right: -220px;
+        height: 100%;
+        width: 200px;
+        color: rgb(180, 180, 180);
+        background-color: rgb(40, 40, 40);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        transition: 0.4s right;
+        
+        &.show {
+            right: 0;
+        }
+        
+        & > ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+            li {
+                div {
+                    padding: 6px 8px;
+                    background-color: rgba(200, 200, 200, 0.2);
+                    border-bottom: 1px solid rgb(20, 20, 20);
+                }
+                
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    
+                    li {
+                        padding: 0px 12px;
+                        background-color: rgba(200, 200, 200, 0.1);
+                        border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+                        display: flex;
+                        align-items: center;
+                        
+                        &:after {
+                            content: " ";
+                            clear: both;
+                            display: block;
+                            height: 0px;
+                            opacity: 0;
+                        }
+                        
+                        span {
+                            display: block;
+                            float: left;
+                        }
+                        
+                        .checkbox {
+                            width: 12px;
+                            height: 12px;
+                            background-color: rgba(200, 200, 200, 0.4);
+                            border-radius: 2px;
+                            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
+                            margin-right: 8px;
+                            position: relative;
+                            
+                            i {
+                                font-size: 14px;
+                                display: block;
+                                position: absolute;
+                                bottom: -2px;
+                                left: 1px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -186,23 +267,3 @@ main.container {
  color: #c5c5c3;   
 }
 
-.appntmntCreateBtn {
-    line-height: 13px;
-    width: 100%;
-}
-
-.buttonList {
-    list-style-type: none;
-}
-
-.appntmntCreateMenu {
-    width: 100%;
-}
-
-.appntCreation {
-    margin-bottom: 10px;
-}
-
-.btnText {
-    font-size: 12px;
-}

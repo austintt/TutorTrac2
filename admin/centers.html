@@ -19,6 +19,13 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+
+    <!-- Calendar -->
+    <link href='css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.cssfullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='lib/moment.min.js'></script>
+    <script src='lib/fullcalendar.min.js'></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,6 +33,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="../css/template.css" />
+    <link rel="stylesheet" href="../css/admin.css">
 </head>
 
 <body>
@@ -50,185 +58,58 @@
 
             </div>
         </div>
-        <div id="secondaryContainer" class="container">
-            <div class="navbar-header">
-                <a href="../" class="navbar-brand">April 3 - 10</a>
-                <ul class="pagination">
-                    <li>
-                        <a href="#" aria-label="Previous">
-                            <span aria-hidden="true">&lt;</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" aria-label="Next">
-                            <span aria-hidden="true">&gt;</span>
-                        </a>
-                    </li>
-                </ul>
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    </div>
+    <div class="toolbar">
+        <div class="tab selected col-xs-3 col-sm-2">TUTORS</div>
+        <div class="tab col-xs-3 col-sm-2">CENTERS</div>
+        <div class="tab col-xs-3 col-sm-2">VIDEOS</div>
+        <div class="tab col-xs-3 col-sm-2">TOOLS</div>
+    </div>
+    <main>
+        <div class="container centers-grid">
+        <div class="row grid">
+            <div class="col-md-4">
+                <div class="cell">Tutoring Center
+                    <div class="count">Total: 56</div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse" id="navbar-main">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <div class="dropdown">
-                        <button class="btn btn-default toolbarButton" id="filter">Filter</button>
-                        <button class="btn btn-default toolbarButton"><span class="glyphicon glyphicon-plus"></span></button>  
-                    </div>
-                </ul>
+            <div class="col-md-4">
+                <div class="cell">PPC
+                    <div class="count">Total: 23</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cell">Reading Center
+                    <div class="count">Total: 15</div>
+                </div>
             </div>
         </div>
-    </div>
-    <main class="container">
-        <header>
-            <div>&nbsp;</div>
-            <div>Monday</div>
-            <div>Tuesday</div>
-            <div>Wednesday</div>
-            <div>Thursday</div>
-            <div>Friday</div>
-            <div>Saturday</div>
-        </header>
-        <section>
-            <header>8:00 am</header>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-        </section>
-        <section>
-            <header>9:00 am</header>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>10:00 am</header>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>11:00 am</header>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>12:00 pm</header>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-        </section>
-        <section>
-            <header>1:00 pm</header>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-        </section>
-        <section>
-            <header>2:00 pm</header>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>3:00 pm</header>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>4:00 pm</header>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>5:00 pm</header>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <section>
-            <header>6:00 pm</header>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-            <div></div>
-            <div></div>
-            <div><span>Appointment</span></div>
-        </section>
-        <section>
-            <header>7:00 pm</header>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <aside>
-            <ul>
-              <li><div>Tutor Centers</div></li>
-                <li><div>Courses</div>
-                   <ul>
-                       <li>
-                           <span class="checkbox"><i>✓</i></span>
-                           <span>CIT 370</span>
-                        </li>
-                       <li>
-                           <span class="checkbox"></span>
-                           <span>CS 364</span>
-                        </li>
-                       <li>
-                           <span class="checkbox"></span>
-                           <span>CS 470</span>
-                        </li>
-                       <li>
-                           <span class="checkbox"><i>✓</i></span>
-                           <span>FDCA 205</span>
-                        </li>
-                   </ul>
-               </li>
-               <li><div>Tutors</div></li>
-               <li><div>Locations</div></li>
-               <li><div>Scheduled Appointments</div></li>
-            </ul>
-        </aside>
+        <div class="row grid">
+            <div class="col-md-4">
+                <div class="cell">Writing Center
+                    <div class="count">Total: 13</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cell">Math Center
+                    <div class="count">Total: 25</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cell plus">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
+    
+    
+    
+    
+    
+    
+    
 
     <div id="register" class="modal fade">
         <div class="modal-dialog">
@@ -301,16 +182,7 @@
     <!-- /.modal -->
 </body>
 <script type="text/javascript">
-//    $('#register').modal()
-    
-    $("#filter").click(function() {
-        var $filters = $("main.container aside");
-        if ($filters.hasClass("show")) {
-            $filters.removeClass("show");
-        } else {
-            $filters.addClass("show");
-        }
-    });
+    //$('#register').modal()
 </script>
 
 </html>
