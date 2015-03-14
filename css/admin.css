@@ -89,4 +89,18 @@ main.admin {
   padding-top: 113px;
   padding-bottom: 114px; }
 
+/* line 86, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.modal-dialog {
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+  width: auto !important; }
+
+/* line 92, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.btn-edit {
+  margin-right: 10px; }
+
+/* line 96, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-modal-img {
+  height: 150px; }
+
 /*# sourceMappingURL=admin.css.map */
