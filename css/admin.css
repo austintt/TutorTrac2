@@ -127,7 +127,7 @@ main.admin {
   padding-bottom: 20px; }
 
 /* line 123, /Users/seanpk/TutorTrac2/css/admin.scss */
-.modal-dialog {
+.modal-dialog.big {
   margin-left: 100px !important;
   margin-right: 100px !important;
   width: auto !important; }
@@ -141,8 +141,7 @@ main.admin {
   height: 150px; }
 
 /* line 137, /Users/seanpk/TutorTrac2/css/admin.scss */
-.details-tabs {
-  margin-left: 10%;
-  margin-top: 30px; }
+.tut-centers .checkbox {
+  padding-left: 15px; }
 
 /*# sourceMappingURL=admin.css.map */
