@@ -76,12 +76,6 @@ main.container {
             border-bottom: 1px dashed rgb(190, 190, 190);
             position: relative;
             
-            // Simulates past appointments
-            &:nth-of-type(1) span,
-            &:nth-of-type(2) span {
-                opacity: 0.3;
-            }
-            
             // Simulates todays column selection
             &:nth-of-type(3) {
                 background-color: rgba(40, 170, 200, 0.4);
@@ -98,6 +92,7 @@ main.container {
                 border-radius: 3px;
                 box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
                 position: absolute;
+                opacity: 0.4;
                 top: 0;
                 left: 0;
                 
@@ -105,6 +100,7 @@ main.container {
                 
                 &.course {
                     background-color: rgb(20, 140, 180);
+                    opacity: 1;
                 }
                 
                 &.appointment {
@@ -116,7 +112,7 @@ main.container {
                 }
                 
                 &.scheduled {
-                    background-color: rgb(20, 140, 120);
+                    opacity: 1;
                 }
                 
                 // Event time
@@ -225,6 +221,14 @@ main.container {
                         &.group {
                             background-color: rgb(200, 140, 60);
                         }
+                    }
+                    
+                    i {
+                        width: 12px;
+                        height: 12px;
+                        margin-top: 2px;
+                        margin-right: 6px;
+                        text-align: center;
                     }
                 }
             }
