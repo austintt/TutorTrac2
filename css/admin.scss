@@ -120,7 +120,7 @@ main.admin {
     padding-bottom: 20px;
 }
 
-.modal-dialog {
+.modal-dialog.big {
     margin-left: 100px !important;
     margin-right: 100px !important;
     width: auto !important;
@@ -132,4 +132,9 @@ main.admin {
 
 .tut-modal-img {
     height: 150px;
+}
+
+.tut-centers .checkbox {
+    padding-left: 15px;
+
 }
