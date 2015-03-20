@@ -61,128 +61,98 @@
     </div>
     <div class="toolbar">
         <div class="tab col-xs-3 col-sm-2">TUTORS</div>
-        <div class="tab selected col-xs-3 col-sm-2">CENTERS</div>
-        <div class="tab col-xs-3 col-sm-2">VIDEOS</div>
+        <div class="tab col-xs-3 col-sm-2">CENTERS</div>
+        <div class="tab selected col-xs-3 col-sm-2">VIDEOS</div>
         <div class="tab col-xs-3 col-sm-2">TOOLS</div>
     </div>
-    <main>
+    <div class="search-bar">
+        <div class="col-xs-10 col-sm-4">
+            <form action="">
+                <input type="email" class="form-control narrow" id="exampleInputEmail1" placeholder="Search videos">
+            </form>
+        </div>
+        <div class="col-xs-2 col-sm-8">
+            <a href="#" id="add-a-video">
+                <span class="glyphicon glyphicon-plus pull-right add-tutor"></span>
+            </a>
+        </div>
+    </div>
+    <main class="video-main">
         <div class="container centers-grid">
-        <div class="row grid">
-            <div class="col-md-4">
-                <div class="cell">Tutoring Center
-                    <div class="count">Tutors: 56</div>
+            <div class="row grid">
+
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MvqMXrfiYlM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OMOVFvcNfvE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0WM915QsOyI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell plus video" style="padding-top:135px;">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="cell">PPC
-                    <div class="count">Tutors: 23</div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="cell">Reading Center
-                    <div class="count">Tutors: 15</div>
-                </div>
-            </div>
-        </div>
-        <div class="row grid">
-            <div class="col-md-4">
-                <div class="cell">Writing Center
-                    <div class="count">Tutors: 13</div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="cell">Math Center
-                    <div class="count">Tutors: 25</div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="cell plus">
-                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                </div>
-            </div>
-        </div>
         </div>
     </main>
-    
-    
-    
-    
-    
-    
-    
 
-    <div id="register" class="modal fade">
+    <!--Add a tutor modal-->
+    <div id="add-video-modal" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> 
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span> 
                     </button>
-                    <h4 class="modal-title">CS 124</h4>
+                    <h4 class="modal-title">Add a Video</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-xs-5 left-col">
-                            <div class="center">
-                                <img src="images/profileIcon.png" id="tutor-icon" alt="">
-                            </div>
-                            <h3>John Smith</h3>
-                            <div class="tut-details">
-                                <em>(208) 479-5393</em>
-                                <em>john@byui.edu</em>
-                            </div>
-                            <ul class="apt-details">
-                                <li>AUS 210</li>
-                                <li>3:00 p.m.</li>
-                                <li>Not Recurring</li>
-                                <li>1-on-1 Appointment</li>
-                            </ul>
-                        </div>
-                        <div class="apt-info col-xs-7">
-                            <div class="stu-img">
-                                <img src="images/profileIcon.png" alt="">
-                            </div>
-                            <div class="stu-name">
-                                <h4>Han Solo</h4>
-                                <em>trusty@byui.edu</em> (<a href="#">edit</a>)
-                            </div>
-                            <div class="form-container">
-                                <form action="">
-                                    <div class="form-group">
-                                        <label for="instructions">Additional Instructions</label>
-                                        <textarea class="form-control" rows="3" id="instructions"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="uploaded-files">Additional Materials</label>
-                                        <ul class="file-list" id="uploaded-files">
-                                            <li>to-edit.docx (<a href="@">delete</a>)</li>
-                                            <li>
-                                                <span class="glyphicon glyphicon-paperclip"></span>
-                                                <a href="#">upload document</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="feedback">Feedback</label>
-                                        <textarea disabled class="form-control" rows="3" id="feedback"></textarea>
-                                    </div>
-                                </form>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="usr">Youtube Embed Code:</label>
+                                <input type="text" class="form-control" placeholer="<iframe width='100%' height='100%' src='https://www.youtube.com/embed/VLWZtVuBPIk' frameborder='0' allowfullscreen></iframe>" id="usr">
                             </div>
                         </div>
                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Add Video</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Confirm Appointment</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                </div>
+                <!-- /.modal-content -->
             </div>
-            <!-- /.modal-content -->
+            <!-- /.modal-dialog -->
         </div>
-        <!-- /.modal-dialog -->
+        <!-- /.modal -->
     </div>
-    <!-- /.modal -->
+
 </body>
 <script type="text/javascript">
-    //$('#register').modal()
+    $(document).ready(function(){
+        $('#add-a-video').click(function(){
+            $('#add-video-modal').modal()
+        });
+    });
 </script>
 
 </html>
