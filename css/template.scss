@@ -77,8 +77,8 @@ main.container {
             position: relative;
             
             // Simulates past appointments
-            &:nth-of-type(1) .appointment,
-            &:nth-of-type(2) .appointment {
+            &:nth-of-type(1) span,
+            &:nth-of-type(2) span {
                 opacity: 0.3;
             }
             
@@ -113,6 +113,10 @@ main.container {
                 
                 &.group {
                     background-color: rgb(200, 140, 60);
+                }
+                
+                &.scheduled {
+                    background-color: rgb(20, 140, 120);
                 }
                 
                 // Event time
