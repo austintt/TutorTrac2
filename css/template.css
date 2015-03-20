@@ -341,4 +341,12 @@ main.container {
 .tut-detail-list {
   list-style-type: none; }
 
+/* line 399, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+.right {
+  float: right; }
+
+/* line 403, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+.left {
+  float: left; }
+
 /*# sourceMappingURL=template.css.map */
