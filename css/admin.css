@@ -134,27 +134,26 @@ main.admin {
 .modal-dialog.big {
   margin: 30px auto;
   width: 95%;
-  max-width: 1000px;
-  min-width: 700px; }
+  max-width: 1000px; }
 
-/* line 134, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+/* line 133, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .btn-edit {
   margin-right: 10px; }
 
-/* line 138, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+/* line 137, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-modal-img {
   height: 150px; }
 
-/* line 142, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+/* line 141, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-centers .checkbox {
   padding-left: 15px; }
 
-/* line 147, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+/* line 146, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .cell.video {
   padding: 5px;
   height: 300px; }
 
-/* line 152, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+/* line 151, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .video-main {
   padding-top: 25px; }
 
