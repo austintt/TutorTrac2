@@ -354,7 +354,9 @@
     <!-- /.modal -->
 </body>
 <script type="text/javascript">
-    $('#register').modal();
+    $(".appointment").click(function() {
+        $("#register").modal();
+    });
     
     $('#profile').click(function() {
         $('#tutor-modal').modal();
