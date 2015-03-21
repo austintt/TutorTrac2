@@ -125,9 +125,10 @@ main.admin {
 }
 
 .modal-dialog.big {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-    width: auto !important;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1000px;
+    min-width: 700px;
 }
 
 .btn-edit {
