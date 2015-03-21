@@ -83,32 +83,81 @@
 
                 <div class="col-md-6">
                     <div class="cell video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
+                        <div class="vid-info">
+                            <h4 style="margin-bottom: 0px">Elder Holland Devotional <em>CS 364</em></h4>
+                            <ul class="topics">
+                                <li>Devotional</li>
+                                <li>Elder Holland</li>
+                                <li>Happiness</li>
+                            </ul>
+                            <div class="delete-video">
+                                <a href="">delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="cell video">
+                        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/MvqMXrfiYlM" frameborder="0" allowfullscreen></iframe>
+                        <div class="vid-info">
+                            <h4 style="margin-bottom: 0px">Campus Tour <em>CS 308, CS 364</em></h4>
+                            <ul class="topics">
+                                <li>BYU-I</li>
+                                <li>Tour</li>
+                            </ul>
+                            <div class="delete-video">
+                                <a href="">delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="cell video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MvqMXrfiYlM" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/OMOVFvcNfvE" frameborder="0" allowfullscreen></iframe>
+                        <div class="vid-info">
+                            <h4 style="margin-bottom: 0px">Star Wars VII <em>All Courses</em></h4>
+                            <ul class="topics">
+                                <li>Star Wars</li>
+                                <li>Awesome</li>
+                                <li>Happiness</li>
+                            </ul>
+                            <div class="delete-video">
+                                <a href="">delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="cell video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OMOVFvcNfvE" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/0WM915QsOyI" frameborder="0" allowfullscreen></iframe>
+                        <div class="vid-info">
+                            <h4 style="margin-bottom: 0px">Avengers: Age of Ultron <em>CS 101</em></h4>
+                            <ul class="topics">
+                                <li>Marvel</li>
+                                <li>Super</li>
+                            </ul>
+                            <div class="delete-video">
+                                <a href="">delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="cell video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0WM915QsOyI" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="cell video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="cell plus video" style="padding-top:135px;">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/VLWZtVuBPIk" frameborder="0" allowfullscreen></iframe>
+                        <div class="vid-info">
+                            <h4 style="margin-bottom: 0px">Elder Holland Devotional <em>CS 364</em></h4>
+                            <ul class="topics">
+                                <li>Devotional</li>
+                                <li>Elder Holland</li>
+                                <li>Happiness</li>
+                            </ul>
+                            <div class="delete-video">
+                                <a href="">delete <span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,10 +177,95 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="form-group">
-                                <label for="usr">Youtube Embed Code:</label>
-                                <input type="text" class="form-control" placeholer="<iframe width='100%' height='100%' src='https://www.youtube.com/embed/VLWZtVuBPIk' frameborder='0' allowfullscreen></iframe>" id="usr">
-                            </div>
+                            <form action="" role="form">
+                                <div class="form-group">
+                                    <label for="usr">Youtube Embed Code:</label>
+                                    <input type="text" class="form-control" placeholer="<iframe width='100%' height='100%' src='https://www.youtube.com/embed/VLWZtVuBPIk' frameborder='0' allowfullscreen></iframe>" id="usr">
+                                </div>
+                                <div class="form-group">
+                                    <label for="usr">Topics (seperate by commas)</label>
+                                    <input type="text" class="form-control" placeholer="<iframe width='100%' height='100%' src='https://www.youtube.com/embed/VLWZtVuBPIk' frameborder='0' allowfullscreen></iframe>" id="usr">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nothing">Courses</label>
+                                    <form action="">
+                                        <input data-brackets-id="5030" type="text" class="form-control narrow" id="usr" placeholer="Search courses">
+                                        <div data-brackets-id="5031" class="checkbox filter-form add">
+                                            <label data-brackets-id="5032">
+                                                <input data-brackets-id="5033" type="checkbox">CS 124
+                                            </label>
+                                            <br data-brackets-id="5034">
+                                            <label data-brackets-id="5035" for="">
+                                                <input data-brackets-id="5036" type="checkbox">CS 165
+                                            </label>
+                                            <br data-brackets-id="5037">
+                                            <label data-brackets-id="5038" for="">
+                                                <input data-brackets-id="5039" type="checkbox">CS 235
+                                            </label>
+                                            <br data-brackets-id="5040">
+                                            <label data-brackets-id="5041" for="">
+                                                <input data-brackets-id="5042" type="checkbox">CS 237
+                                            </label>
+                                            <br data-brackets-id="5043">
+                                            <label data-brackets-id="5044" for="">
+                                                <input data-brackets-id="5045" type="checkbox">CS 238
+                                            </label>
+                                            <br data-brackets-id="5046">
+                                            <label data-brackets-id="5047" for="">
+                                                <input data-brackets-id="5048" type="checkbox">CS 306
+                                            </label>
+                                            <br data-brackets-id="5049">
+                                            <label data-brackets-id="5050" for="">
+                                                <input data-brackets-id="5051" type="checkbox">CS 364
+                                            </label>
+                                            <br data-brackets-id="5052">
+                                            <label data-brackets-id="5053" for="">
+                                                <input data-brackets-id="5054" type="checkbox">CS 380
+                                            </label>
+                                            <br data-brackets-id="5055">
+                                            <label data-brackets-id="5056" for="">
+                                                <input data-brackets-id="5057" type="checkbox">CS 490
+                                            </label>
+                                            <br data-brackets-id="5058">
+                                            <label data-brackets-id="5059">
+                                                <input data-brackets-id="5060" type="checkbox">CS 124
+                                            </label>
+                                            <br data-brackets-id="5061">
+                                            <label data-brackets-id="5062" for="">
+                                                <input data-brackets-id="5063" type="checkbox">CS 165
+                                            </label>
+                                            <br data-brackets-id="5064">
+                                            <label data-brackets-id="5065" for="">
+                                                <input data-brackets-id="5066" type="checkbox">CS 235
+                                            </label>
+                                            <br data-brackets-id="5067">
+                                            <label data-brackets-id="5068" for="">
+                                                <input data-brackets-id="5069" type="checkbox">CS 237
+                                            </label>
+                                            <br data-brackets-id="5070">
+                                            <label data-brackets-id="5071" for="">
+                                                <input data-brackets-id="5072" type="checkbox">CS 238
+                                            </label>
+                                            <br data-brackets-id="5073">
+                                            <label data-brackets-id="5074" for="">
+                                                <input data-brackets-id="5075" type="checkbox">CS 306
+                                            </label>
+                                            <br data-brackets-id="5076">
+                                            <label data-brackets-id="5077" for="">
+                                                <input data-brackets-id="5078" type="checkbox">CS 364
+                                            </label>
+                                            <br data-brackets-id="5079">
+                                            <label data-brackets-id="5080" for="">
+                                                <input data-brackets-id="5081" type="checkbox">CS 380
+                                            </label>
+                                            <br data-brackets-id="5082">
+                                            <label data-brackets-id="5083" for="">
+                                                <input data-brackets-id="5084" type="checkbox">CS 490
+                                            </label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -148,8 +282,8 @@
 
 </body>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('#add-a-video').click(function(){
+    $(document).ready(function () {
+        $('#add-a-video').click(function () {
             $('#add-video-modal').modal()
         });
     });

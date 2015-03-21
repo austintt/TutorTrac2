@@ -145,9 +145,37 @@ main.admin {
 
 .cell.video {
     padding: 5px;   
-    height: 300px;
 }
 
 .video-main {
     padding-top: 25px;
+}
+
+.topics {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: -15px 0px 0px 0px; 
+    
+    li {
+          font-size: 12px;
+          display: inline-block;
+          background-color: white;
+          color: darkgrey;
+          border-radius: 4px;
+          padding: 0px 2px 0px 2px;
+    }
+}
+
+.vid-info {
+        color: white;
+    text-align: left;
+}
+
+.delete-video {
+    font-size: 12px;
+    text-align: right;
+    
+    a {
+        color: white;
+    }
 }
