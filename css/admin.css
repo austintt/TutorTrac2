@@ -96,9 +96,10 @@ main.admin {
 /* line 90, /Users/seanpk/TutorTrac2/css/admin.scss */
 .edit-button {
   margin-top: 15px;
-  font-size: 25px; }
+  font-size: 25px;
+  margin-right: 50px; }
 
-/* line 95, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 96, /Users/seanpk/TutorTrac2/css/admin.scss */
 .calc-icon {
   height: 60px;
   float: left;
@@ -106,42 +107,78 @@ main.admin {
   padding-right: 20px;
   margin-left: -10px; }
 
-/* line 103, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 104, /Users/seanpk/TutorTrac2/css/admin.scss */
 .centerHeader {
   margin-top: 30px; }
 
-/* line 107, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 108, /Users/seanpk/TutorTrac2/css/admin.scss */
 .otherTabs {
   margin-top: 20px; }
-  /* line 109, /Users/seanpk/TutorTrac2/css/admin.scss */
+  /* line 110, /Users/seanpk/TutorTrac2/css/admin.scss */
   .otherTabs .selected {
     background-color: gray; }
 
-/* line 114, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 115, /Users/seanpk/TutorTrac2/css/admin.scss */
 .tab-list {
-  margin-top: 30px;
+  margin-top: 60px;
   font-size: 25px; }
 
-/* line 119, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 120, /Users/seanpk/TutorTrac2/css/admin.scss */
 .list-item {
-  padding-bottom: 20px; }
+  text-align: center; }
 
-/* line 123, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 124, /Users/seanpk/TutorTrac2/css/admin.scss */
 .modal-dialog.big {
   margin-left: 100px !important;
   margin-right: 100px !important;
   width: auto !important; }
 
-/* line 129, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 130, /Users/seanpk/TutorTrac2/css/admin.scss */
 .btn-edit {
   margin-right: 10px; }
 
-/* line 133, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 134, /Users/seanpk/TutorTrac2/css/admin.scss */
 .tut-modal-img {
   height: 150px; }
 
-/* line 137, /Users/seanpk/TutorTrac2/css/admin.scss */
+/* line 138, /Users/seanpk/TutorTrac2/css/admin.scss */
 .tut-centers .checkbox {
   padding-left: 15px; }
+
+/* line 143, /Users/seanpk/TutorTrac2/css/admin.scss */
+.row-indiv {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: solid 1px grey;
+  font-size: 20px; }
+
+/* line 150, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tutor-tab-title {
+  font-weight: bolder; }
+
+/* line 154, /Users/seanpk/TutorTrac2/css/admin.scss */
+.courses-tab-title {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: solid 1px grey;
+  margin-bottom: 30px; }
+
+/* line 163, /Users/seanpk/TutorTrac2/css/admin.scss */
+.settings-icon {
+  font-size: 20px;
+  float: right; }
+
+/* line 168, /Users/seanpk/TutorTrac2/css/admin.scss */
+.tab-settings {
+  border-right: none !important; }
+
+/* line 176, /Users/seanpk/TutorTrac2/css/admin.scss */
+.dates-input {
+  padding-bottom: 10px; }
+
+/* line 180, /Users/seanpk/TutorTrac2/css/admin.scss */
+.container-set {
+  padding-bottom: 30px;
+  border-top: solid 1px grey; }
 
 /*# sourceMappingURL=admin.css.map */

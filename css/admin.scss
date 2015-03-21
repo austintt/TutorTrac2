@@ -90,6 +90,7 @@ main.admin {
 .edit-button {
     margin-top: 15px;
     font-size: 25px;
+    margin-right: 50px;
 }
 
 .calc-icon {
@@ -112,12 +113,12 @@ main.admin {
 }
 
 .tab-list {
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 25px;
 }
 
 .list-item {
-    padding-bottom: 20px;
+    text-align: center;
 }
 
 .modal-dialog.big {
@@ -137,4 +138,46 @@ main.admin {
 .tut-centers .checkbox {
     padding-left: 15px;
 
+}
+
+.row-indiv {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: solid 1px grey;
+    font-size: 20px;
+}
+
+.tutor-tab-title {
+    font-weight: bolder;
+}
+
+.courses-tab-title {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid 1px grey;
+    margin-bottom: 30px;
+}
+
+
+
+.settings-icon {
+    font-size: 20px;
+    float: right;
+}
+
+.tab-settings {
+    border-right: none !important;
+}
+
+.hour-limit {
+    
+}
+
+.dates-input {
+    padding-bottom: 10px;
+}
+
+.container-set {
+    padding-bottom: 30px;
+    border-top: solid 1px grey;
 }
