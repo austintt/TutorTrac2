@@ -34,6 +34,7 @@
 <!--    <link rel="stylesheet" href="../../../css/bootstrap.css">-->
     <link rel="stylesheet" href="../../../css/template.css" />
     <link rel="stylesheet" href="../../../css/admin.css">
+    <link rel="stylesheet" href="../../../css/reports.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -134,7 +135,17 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Tutor Report</h1>
+                    <h1 class="page-header">Tutor Report: <span class="subTitle">Tom Riddle</span></h1> 
+                    <div class="input-group custom-search-form col-lg-4">
+                        <input id="studentReport" type="text" class="form-control" placeholder="Search I-Number">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-user-secret fa-2"></i>
+                        </button>
+                    </span>
+                    <br>
+                    <br>
+                    </div>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -148,8 +159,8 @@
                                     <i class="fa fa-calendar fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">10</div>
-                                    <div>Scheduled This Week</div>
+                                    <div class="huge">25</div>
+                                    <div>Total Scheduled</div>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +182,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">5</div>
-                                    <div>Fulfilled this Week</div>
+                                    <div>Total Attended</div>
                                 </div>
                             </div>
                         </div>
@@ -192,8 +203,8 @@
                                     <i class="fa fa-times fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">2</div>
-                                    <div>Canceled This Week</div>
+                                    <div class="huge">5</div>
+                                    <div>Total Canceled</div>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +225,8 @@
                                     <i class="fa fa-support fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">1</div>
-                                    <div>Missed This Week</div>
+                                    <div class="huge">15</div>
+                                    <div>Total Missed</div>
                                 </div>
                             </div>
                         </div>
@@ -231,142 +242,18 @@
             </div>
             <!-- /.row -->
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Performance Report
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
+                <div class="col-lg-4">
                     <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Performance Report
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-hover table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Amount</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>3326</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:29 PM</td>
-                                                    <td>$321.33</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3325</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:20 PM</td>
-                                                    <td>$234.34</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3324</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:03 PM</td>
-                                                    <td>$724.17</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3323</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:00 PM</td>
-                                                    <td>$23.71</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3322</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:49 PM</td>
-                                                    <td>$8345.23</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3321</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:23 PM</td>
-                                                    <td>$245.12</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3320</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:15 PM</td>
-                                                    <td>$5663.54</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3319</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:13 PM</td>
-                                                    <td>$943.45</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- /.table-responsive -->
-                                </div>
-                                <!-- /.col-lg-4 (nested) -->
-                                <div class="col-lg-8">
-                                    <div id="morris-bar-chart"></div>
-                                </div>
-                                <!-- /.col-lg-8 (nested) -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    
+            
+                            <img style="padding-right: 10px; border-radius: 50%;" class="tut-modal-img pull-left" src="../../../assets/voldemort.png" alt="">
+                            <h4 class="tut-name">Tom Riddle</h4>
+                            <h5><span class="glyphicon glyphicon-envelope"></span> shallnotbenamed@byui.edu</h5>
+                            <h5><span class="glyphicon glyphicon-phone"></span> 555-555-5555</h5>
+                            <h4>Major</h4>
+                            <h5>Computer Science</h5> 
                 </div>
-                <!-- /.col-lg-8 -->
-                    <div class="col-lg-4">
+
+                <div class="col-lg-4 right">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-dashboard fa-fw"></i> Other Metrics
@@ -375,28 +262,18 @@
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-user fa-fw"></i> Unique Students for Month
-                                    <span class="pull-right text-muted small"><em>32</em>
+                                    <i class="fa fa-user fa-fw"></i> One-On-One Appointments
+                                    <span class="pull-right text-muted small"><em>20</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-clock-o fa-fw"></i> Total Hours for Month Fulfilled
-                                    <span class="pull-right text-muted small"><em>46</em>
+                                    <i class="fa fa-users fa-fw"></i> Group Appointments
+                                    <span class="pull-right text-muted small"><em>5</em>
                                     </span>
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-user fa-fw"></i> One-On-One Appointments Fulfilled
-                                    <span class="pull-right text-muted small"><em>35</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-users fa-fw"></i> Group Appointments Fulfilled
-                                    <span class="pull-right text-muted small"><em>8</em>
-                                    </span>
-                                </a>
-                                <a href="#" class="list-group-item">
-                                    <i class="fa fa-user-plus fa-fw"></i> Drop-In Appointments Fulfilled
-                                    <span class="pull-right text-muted small"><em>2</em>
+                                    <i class="fa fa-user-plus fa-fw"></i> Drop-In Appointments
+                                    <span class="pull-right text-muted small"><em>0</em>
                                     </span>
                                 </a>
                             </div>
@@ -407,19 +284,14 @@
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Donut Chart Example
-                        </div>
-                        <div class="panel-body">
-                            <div id="morris-donut-chart"></div>
-                            <a href="#" class="btn btn-default btn-block">View Details</a>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
+                    
                     
                 </div>
                 <!-- /.col-lg-4 -->
+                <!-- /.col-lg-8 -->
+                
+                </div>
+                    
             </div>
             <!-- /.row -->
         </div>
