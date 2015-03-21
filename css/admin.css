@@ -1,0 +1,193 @@
+/* line 1, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.toolbar {
+  background-color: lightgrey;
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 17px;
+  height: 50px; }
+  /* line 7, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .toolbar .tab {
+    text-align: center;
+    border-right: solid 1px grey;
+    color: grey; }
+    /* line 12, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+    .toolbar .tab a {
+      color: grey; }
+  /* line 16, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .toolbar .tab.selected {
+    font-weight: 700;
+    color: black; }
+
+/* line 21, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.search-bar {
+  background-color: #646561;
+  height: 35px;
+  padding-top: 4px;
+  color: white; }
+
+/* line 27, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.narrow {
+  height: 15px !important; }
+
+/* line 30, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.add-tutor {
+  margin-top: 5px; }
+
+/* line 33, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+main.admin {
+  margin-top: 0px;
+  border-bottom: solid 2px #646561; }
+  /* line 35, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  main.admin .left-col {
+    border-right: solid 2px #646561; }
+
+/* line 41, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.filter-form {
+  max-height: 250px;
+  overflow: scroll; }
+
+/* line 46, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.filter-form.classes {
+  max-height: 500px; }
+
+/* line 50, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.filter-form.add {
+  max-height: 80px; }
+
+/* line 53, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.course-filters {
+  border-top: solid 1px lightgray; }
+
+/* line 56, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-profile {
+  height: 50px;
+  margin-right: 10px; }
+
+/* line 60, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-btn {
+  margin-top: -47px;
+  padding: 4px 16px; }
+
+/* line 64, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut {
+  border-bottom: solid 1px lightgrey; }
+
+/* line 67, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-list {
+  max-height: 550px;
+  overflow: scroll; }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 74, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .left-col {
+    display: none; } }
+
+/* line 79, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.cell {
+  padding: 100px 0px 80px 0px;
+  text-align: center;
+  font-size: 30px;
+  background-color: darkgrey;
+  margin-bottom: 30px; }
+  /* line 86, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .cell .count {
+    margin-top: 20px;
+    font-size: 20px; }
+
+/* line 92, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.plus {
+  padding-top: 113px;
+  padding-bottom: 114px; }
+
+/* line 98, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.back-button {
+  margin-top: 10px; }
+
+/* line 102, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.edit-button {
+  margin-top: 15px;
+  font-size: 25px; }
+
+/* line 107, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.calc-icon {
+  height: 60px;
+  float: left;
+  margin-top: 20px;
+  padding-right: 20px;
+  margin-left: -10px; }
+
+/* line 115, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.centerHeader {
+  margin-top: 30px; }
+
+/* line 119, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.otherTabs {
+  margin-top: 20px; }
+  /* line 121, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .otherTabs .selected {
+    background-color: gray; }
+
+/* line 126, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tab-list {
+  margin-top: 30px;
+  font-size: 25px; }
+
+/* line 131, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.list-item {
+  padding-bottom: 20px; }
+
+/* line 135, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.modal-dialog.big {
+  margin: 30px auto;
+  width: 95%;
+  max-width: 1000px; }
+
+/* line 141, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.btn-edit {
+  margin-right: 10px; }
+
+/* line 145, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-modal-img {
+  height: 150px; }
+
+/* line 149, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.tut-centers .checkbox {
+  padding-left: 15px; }
+
+/* line 154, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.cell.video {
+  padding: 5px; }
+
+/* line 158, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.video-main {
+  padding-top: 25px; }
+
+/* line 162, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.topics {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: -15px 0px 0px 0px; }
+  /* line 167, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .topics li {
+    font-size: 12px;
+    display: inline-block;
+    background-color: white;
+    color: darkgrey;
+    border-radius: 4px;
+    padding: 0px 2px 0px 2px; }
+
+/* line 177, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.vid-info {
+  color: white;
+  text-align: left; }
+
+/* line 182, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+.delete-video {
+  font-size: 12px;
+  text-align: right; }
+  /* line 186, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  .delete-video a {
+    color: white; }
+
+/*# sourceMappingURL=admin.css.map */

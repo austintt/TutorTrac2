@@ -15,6 +15,285 @@ main {
     }
 }
 
+*:focus {
+    outline: none !important;
+}
+
+main.container {
+    width: 100%;
+    padding: 0px;
+    margin-top: 125px;
+    position: relative;
+    overflow-x: hidden;
+    
+    & > header {
+        display: flex;
+        color: rgb(200, 200, 200);
+        background-color: rgb(80, 80, 80);
+        
+        div {
+            flex-grow: 1;
+            width: 100px;
+            padding: 6px;
+            text-align: center;
+            
+            &:first-child {
+                flex-grow: 0;
+                width: 70px;
+            }
+        }
+    }
+    
+    section {
+        height: 50px;
+        display: flex;
+        
+        &:nth-child(odd) {
+            background-color: rgba(180, 180, 180, 0.1);
+        }
+        
+        &:nth-child(even) {
+            background-color: rgba(180, 180, 180, 0.2);
+        }
+        
+        header {
+            width: 70px;
+            display: flex;
+            padding-right: 5px;
+            background-color: rgba(100, 100, 100, 0.9);
+            justify-content: flex-end;
+            align-items: center;
+            color: rgb(220, 220, 220);
+            border-right: 2px solid rgb(50, 50, 50);
+            border-bottom: 1px solid rgb(50, 50, 50);
+        }
+        
+        div {
+            flex-grow: 1;
+            width: 100px;
+            height: 100%;
+            border-right: 1px solid rgb(200, 200, 200);
+            border-bottom: 1px dashed rgb(190, 190, 190);
+            position: relative;
+            
+            // Simulates todays column selection
+            &:nth-of-type(3) {
+                background-color: rgba(40, 170, 200, 0.4);
+            }
+            
+            span {
+                width: 98%;
+                margin-left: 1%;
+                height: 100%;
+                display: block;
+                color: rgb(240, 240, 240);
+                padding: 5px;
+                background-color: rgb(20, 140, 120);
+                border-radius: 3px;
+                box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                opacity: 0.4;
+                top: 0;
+                left: 0;
+                
+                // Event types
+                
+                &.course {
+                    background-color: rgb(20, 140, 180);
+                    opacity: 1;
+                }
+                
+                &.appointment {
+                    background-color: rgb(20, 140, 120);
+                }
+                
+                &.group {
+                    background-color: rgb(200, 140, 60);
+                }
+                
+                &.scheduled {
+                    opacity: 1;
+                }
+                
+                // Event time
+                
+                &.fifteen {
+                    top: 15%;
+                    z-index: 4;
+                }
+                
+                &.thirty {
+                    top: 50%;
+                    z-index: 4;
+                }
+                
+                &.fortyfive {
+                    top: 75%;
+                    z-index: 4;
+                }
+                
+                // Event length
+                
+                &.half {
+                    height: 50%;
+                    z-index: 4;
+                }
+                
+                &.hourhalf {
+                    height: 150%;
+                    z-index: 4;
+                }
+                
+                &.twohour {
+                    height: 200%;
+                }
+                
+                &.threehour {
+                    height: 300%;
+                    z-index: 4;
+                }
+                
+                &.fourhour {
+                    height: 400%;
+                    z-index: 4;
+                }
+            }
+        }
+    }
+    
+    aside {
+        position: absolute;
+        top: 0;
+        right: -220px;
+        height: 100%;
+        width: 200px;
+        color: rgb(180, 180, 180);
+        background-color: rgb(40, 40, 40);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        transition: 0.4s right;
+        z-index: 1000;
+        
+        &.show {
+            right: 0;
+        }
+        
+        & > ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+            &.key {
+                position: fixed;
+                bottom: 0;
+                width: 200px;
+                font-size: 12px;
+                
+                li:first-child {
+                    div {
+                        padding: 3px 6px;
+                        background-color: rgba(200, 200, 200, 0.3);
+                        color: rgb(20, 20, 20);
+                        text-transform: uppercase;
+                    }
+                }
+                
+                li div {
+                    background-color: rgba(200, 200, 200, 0.1);
+                    
+                    span {
+                        background-color: rgba(255, 255, 255, 0.5);
+                        width: 12px;
+                        height: 12px;
+                        margin-top: 2px;
+                        margin-right: 6px;
+                        display: block;
+                        border-radius: 2px;
+                        float: left;
+                        
+                        &.course {
+                            background-color: rgb(20, 140, 180);
+                        }
+
+                        &.appointment {
+                            background-color: rgb(20, 140, 120);
+                        }
+
+                        &.group {
+                            background-color: rgb(200, 140, 60);
+                        }
+                    }
+                    
+                    i {
+                        font-size: inherit;
+                        width: 12px;
+                        height: 12px;
+                        margin-top: 2px;
+                        margin-right: 6px;
+                        text-align: center;
+                    }
+                }
+            }
+            
+            li {
+                div {
+                    padding: 6px 8px;
+                    background-color: rgba(200, 200, 200, 0.2);
+                    border-bottom: 1px solid rgb(20, 20, 20);
+                    
+                    & > i {
+                        font-size: 22px;
+                        margin-top: -2px;
+                    }
+                }
+                
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    
+                    li {
+                        padding: 0px 12px;
+                        background-color: rgba(200, 200, 200, 0.1);
+                        border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+                        display: flex;
+                        align-items: center;
+                        
+                        &:after {
+                            content: " ";
+                            clear: both;
+                            display: block;
+                            height: 0px;
+                            opacity: 0;
+                        }
+                        
+                        span {
+                            display: block;
+                            float: left;
+                        }
+                        
+                        .checkbox {
+                            width: 12px;
+                            height: 12px;
+                            background-color: rgba(200, 200, 200, 0.4);
+                            border-radius: 2px;
+                            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
+                            margin-right: 8px;
+                            position: relative;
+                            
+                            i {
+                                font-size: 14px;
+                                display: block;
+                                position: absolute;
+                                bottom: -2px;
+                                left: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .pagination {
     float: right;
     margin: 17px 0px 0px 0px;
@@ -42,23 +321,6 @@ main {
     border-right: solid 1px lightgrey;
 }
     
-.toolbarButton {
-    background-color: #646561;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.toolbarButton:hover {
-    background-color: #8b8b88;
-}
-
-.open .btn {
-    background-color: #8b8b88 !important;
-}
-
-.selectedFilter {
- color: #c5c5c3;   
-}
 }
 #tutor-icon {
     height: 100px;
@@ -115,4 +377,39 @@ main {
 .file-list {
     list-style-type: none;
     padding-left: 0px;
+}
+
+.toolbarButton {
+    background-color: #646561;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.toolbarButton:hover {
+    background-color: #8b8b88;
+}
+
+.open .toolbarButton {
+    background-color: #8b8b88 !important;
+}
+
+.selectedFilter {
+ color: #c5c5c3;   
+}
+
+
+.tut-name {
+    margin-top: 20px;
+}
+
+.tut-detail-list {
+    list-style-type: none;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
