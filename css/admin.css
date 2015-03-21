@@ -1,108 +1,108 @@
-/* line 1, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 1, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .toolbar {
   background-color: lightgrey;
   width: 100%;
   margin-top: 60px;
   padding-top: 17px;
   height: 50px; }
-  /* line 7, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 7, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   .toolbar .tab {
     text-align: center;
     border-right: solid 1px grey;
     color: grey; }
-  /* line 12, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 12, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   .toolbar .tab.selected {
     font-weight: 700;
     color: black; }
 
-/* line 17, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 17, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .search-bar {
   background-color: #646561;
   height: 35px;
   padding-top: 4px;
   color: white; }
 
-/* line 23, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 23, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .narrow {
   height: 15px !important; }
 
-/* line 26, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 26, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .add-tutor {
   margin-top: 5px; }
 
-/* line 29, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 29, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 main.admin {
   margin-top: 0px;
   border-bottom: solid 2px #646561; }
-  /* line 31, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 31, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   main.admin .left-col {
     border-right: solid 2px #646561; }
 
-/* line 37, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 37, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .filter-form {
   max-height: 250px;
   overflow: scroll; }
 
-/* line 42, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 42, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .filter-form.add {
   max-height: 80px; }
 
-/* line 45, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 45, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .course-filters {
   border-top: solid 1px lightgray; }
 
-/* line 48, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 48, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-profile {
   height: 50px;
   margin-right: 10px; }
 
-/* line 52, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 52, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-btn {
   margin-top: -47px;
   padding: 4px 16px; }
 
-/* line 56, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 56, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut {
   border-bottom: solid 1px lightgrey; }
 
-/* line 59, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 59, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-list {
   max-height: 440px;
   overflow: scroll; }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /* line 66, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 66, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   .left-col {
     display: none; } }
 
-/* line 71, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 71, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .cell {
   padding: 100px 0px 80px 0px;
   text-align: center;
   font-size: 30px;
   background-color: darkgrey;
   margin-bottom: 30px; }
-  /* line 78, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 78, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   .cell .count {
     margin-top: 20px;
     font-size: 20px; }
 
-/* line 84, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 84, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .plus {
   padding-top: 113px;
   padding-bottom: 114px; }
 
-/* line 90, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 90, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .back-button {
   margin-top: 10px; }
 
-/* line 94, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 94, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .edit-button {
   margin-top: 15px;
   font-size: 25px; }
 
-/* line 99, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 99, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .calc-icon {
   height: 60px;
   float: left;
@@ -110,49 +110,53 @@ main.admin {
   padding-right: 20px;
   margin-left: -10px; }
 
-/* line 107, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 107, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .centerHeader {
   margin-top: 30px; }
 
-/* line 111, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 111, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .otherTabs {
   margin-top: 20px; }
-  /* line 113, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+  /* line 113, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
   .otherTabs .selected {
     background-color: gray; }
 
-/* line 118, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 118, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tab-list {
   margin-top: 30px;
   font-size: 25px; }
 
-/* line 123, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 123, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .list-item {
   padding-bottom: 20px; }
 
-/* line 127, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 127, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .modal-dialog.big {
-  margin-left: 100px !important;
-  margin-right: 100px !important;
-  width: auto !important; }
+  margin: 30px auto;
+  width: 95%;
+  max-width: 1000px; }
 
-/* line 133, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 133, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .btn-edit {
   margin-right: 10px; }
 
-/* line 137, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 137, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-modal-img {
   height: 150px; }
 
-/* line 141, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 141, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .tut-centers .checkbox {
   padding-left: 15px; }
 
-/* line 146, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+/* line 146, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
 .cell.video {
   padding: 5px; }
 
+<<<<<<< HEAD
 /* line 150, /Users/weston/Desktop/TutorTrac2/css/admin.scss */
+=======
+/* line 151, /Users/joshkennelly/Developer/TutorTrac2/css/admin.scss */
+>>>>>>> 92d499be70db77fb4fdb13be202e46e05759ddcc
 .video-main {
   padding-top: 25px; }
 
