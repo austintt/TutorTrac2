@@ -8,6 +8,10 @@
         text-align: center;
         border-right: solid 1px grey;
         color: grey;
+        
+        a {
+            color: grey;
+        }
     }
     .tab.selected {
         font-weight: 700;
