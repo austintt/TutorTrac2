@@ -33,8 +33,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="../css/template.css" />
-    <link rel="stylesheet" href="../css/admin.css" />
     <link rel="stylesheet" href="../css/apntmtCreateModal.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -63,7 +63,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="" id="profile"><span class="glyphicon glyphicon-user"></span> Profile</a>
+                        <a href="" id="profile">Profile</a>
                     </li>
                 </ul>
 
@@ -468,15 +468,17 @@
                     <button type="button" class="close btn-edit">
                         <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                     </button>
-                    <h4 class="modal-title">Tutor Profile</h4>
+                    <h4 class="modal-title">Tutor Details</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img style="padding-right: 10px; border-radius: 50%;" class="tut-modal-img pull-left" src="../assets/voldemort.png" alt="">
+                            <img class="tut-modal-img pull-left" src="../images/profileIcon.png" alt="">
                             <h4 class="tut-name">Tom Riddle</h4>
-                            <h5><span class="glyphicon glyphicon-envelope"></span> shallnotbenamed@byui.edu</h5>
-                            <h5><span class="glyphicon glyphicon-phone"></span> 555-555-5555</h5>
+                            <h5>shallnotbenamed@byui.edu</h5>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="btn btn-primary">? Add Appointment ?</a>
                         </div>
                     </div>
                     <div class="row">
@@ -497,35 +499,14 @@
                     </div>
                     <div class='row'>
                         <div class="col-xs-12">
-                            <h4>Major/Strengths</h4>
+                            <h4>Strengths/Major</h4>
                             <em>Computer Science</em>
                             Strengths here
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class="col-xs-12">
-                            <h4>Feedback</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit placeat repellendus, consequatur iste, doloremque a aliquam ea earum, illo, dolores iusto porro totam! Consectetur accusamus culpa, similique deserunt quae eligendi.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4>Max Hours</h4>
-                            <p>20 Hours</p>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class="col-xs-12">
-                            <h4>Schedule</h4>
-                        </div>
-                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary">Add Appointment</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-danger left" data-dismiss="modal">Delete Tutor</button>
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -538,6 +519,7 @@
 <script type="text/javascript">
 //    $('#create').modal();
     $('#tutor-modal').modal();
+    
     
     $('#add').click(function() {
     $('#create').modal();
