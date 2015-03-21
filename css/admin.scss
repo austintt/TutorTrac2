@@ -38,6 +38,10 @@ main.admin {
     max-height: 250px;
     overflow: scroll;
 }
+
+.filter-form.add {
+    max-height: 80px;
+}
 .course-filters {
     border-top: solid 1px lightgray;
 }
