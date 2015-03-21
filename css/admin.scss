@@ -39,6 +39,10 @@ main.admin {
     overflow: scroll;
 }
 
+.filter-form.classes {
+    max-height: 500px;
+}
+
 .filter-form.add {
     max-height: 80px;
 }
@@ -57,7 +61,7 @@ main.admin {
     border-bottom: solid 1px lightgrey;
 }
 .tut-list {
-    max-height: 440px;
+    max-height: 550px;
     overflow: scroll;
 }
 /* Small Devices, Tablets */
