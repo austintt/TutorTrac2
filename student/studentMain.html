@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Tutor Trac 2</title>
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -27,6 +27,7 @@
     <![endif]-->
     <link rel="stylesheet" href="../css/template.css" />
     <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="stylesheet" href="../css/apntmtCreateModal.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
@@ -78,7 +79,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <div class="dropdown">
                         <button class="btn btn-default toolbarButton" id="filter">Filter</button>
-                        <button class="btn btn-default toolbarButton"><span class="glyphicon glyphicon-plus"></span></button>  
+                        <button class="btn btn-default toolbarButton add"><span class="glyphicon glyphicon-plus"></span></button>  
                     </div>
                 </ul>
             </div>
@@ -350,14 +351,113 @@
             <!-- /.modal-content -->
         </div>
         <!-- /.modal-dialog -->
+        
     </div>
     <!-- /.modal -->
+    
+    
+    
+    
+    
+    <div id="create" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> 
+                    </button>
+                    <h4 class="modal-title">Create Group Appointment</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 left-col">  
+                            <!--COURSE-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Course:</span> <span>CS 364 </span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 124</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 308</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
+                              </ul>
+                            </div>
+                            
+                            <!--DATE-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Date:</span> <span>Wed 4/8/15</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 124</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 308</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
+                              </ul>
+                            </div>
+                            
+                            <!--TIME-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Time:</span> <span>10:00am</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 124</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 308</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
+                              </ul>
+                            </div>
+                            
+                            <!--LOCATION-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">Location:</span> <span>Linux Lab</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Austin 210</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Parkinglot</a></li>
+                              </ul>
+                            </div>
+                            
+                            <!--MAX STUDENTS-->
+                            <div class="input-group appntCreation input-group-sm">
+                              <span class="input-group-addon short" id="basic-addon1">Max Students</span>
+                              <input type="text" class="form-control" placeholder="4" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save Appointment</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
 </body>
 <script type="text/javascript">
-    $('#register').modal();
+    $('.add').click(function(){
+         $('#create').modal();
+    });
+  
+    $(".appointment").click(function() {
+        $("#register").modal();
+    });
     
     $('#profile').click(function() {
         $('#tutor-modal').modal();
+    });
+    
+    $('main').click(function() {
+         $('#register').modal();
     });
     
     $("#filter").click(function() {
