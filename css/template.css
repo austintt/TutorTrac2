@@ -72,13 +72,10 @@ main.container {
       border-right: 1px solid #c8c8c8;
       border-bottom: 1px dashed #bebebe;
       position: relative; }
-      /* line 81, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
-      main.container section div:nth-of-type(1) span, main.container section div:nth-of-type(2) span {
-        opacity: 0.3; }
-      /* line 86, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+      /* line 80, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
       main.container section div:nth-of-type(3) {
         background-color: rgba(40, 170, 200, 0.4); }
-      /* line 90, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+      /* line 84, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
       main.container section div span {
         width: 98%;
         margin-left: 1%;
@@ -90,52 +87,54 @@ main.container {
         border-radius: 3px;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
         position: absolute;
+        opacity: 0.4;
         top: 0;
         left: 0; }
-        /* line 106, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 101, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.course {
-          background-color: #148cb4; }
-        /* line 110, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          background-color: #148cb4;
+          opacity: 1; }
+        /* line 106, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.appointment {
           background-color: #148c78; }
-        /* line 114, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 110, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.group {
           background-color: #c88c3c; }
-        /* line 118, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 114, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.scheduled {
-          background-color: #148c78; }
-        /* line 124, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          opacity: 1; }
+        /* line 120, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.fifteen {
           top: 15%;
           z-index: 4; }
-        /* line 129, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 125, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.thirty {
           top: 50%;
           z-index: 4; }
-        /* line 134, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 130, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.fortyfive {
           top: 75%;
           z-index: 4; }
-        /* line 141, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 137, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.half {
           height: 50%;
           z-index: 4; }
-        /* line 146, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 142, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.hourhalf {
           height: 150%;
           z-index: 4; }
-        /* line 151, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 147, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.twohour {
           height: 200%; }
-        /* line 155, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 151, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.threehour {
           height: 300%;
           z-index: 4; }
-        /* line 160, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 156, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container section div span.fourhour {
           height: 400%;
           z-index: 4; }
-  /* line 168, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 164, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   main.container aside {
     position: absolute;
     top: 0;
@@ -147,30 +146,30 @@ main.container {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     transition: 0.4s right;
     z-index: 1000; }
-    /* line 180, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+    /* line 176, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
     main.container aside.show {
       right: 0; }
-    /* line 184, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+    /* line 180, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
     main.container aside > ul {
       list-style: none;
       margin: 0;
       padding: 0; }
-      /* line 189, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+      /* line 185, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
       main.container aside > ul.key {
         position: fixed;
         bottom: 0;
         width: 200px;
         font-size: 12px; }
-        /* line 196, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 192, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container aside > ul.key li:first-child div {
           padding: 3px 6px;
           background-color: rgba(200, 200, 200, 0.3);
           color: #141414;
           text-transform: uppercase; }
-        /* line 204, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 200, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container aside > ul.key li div {
           background-color: rgba(200, 200, 200, 0.1); }
-          /* line 207, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          /* line 203, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
           main.container aside > ul.key li div span {
             background-color: rgba(255, 255, 255, 0.5);
             width: 12px;
@@ -180,43 +179,55 @@ main.container {
             display: block;
             border-radius: 2px;
             float: left; }
-            /* line 217, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+            /* line 213, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
             main.container aside > ul.key li div span.course {
               background-color: #148cb4; }
-            /* line 221, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+            /* line 217, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
             main.container aside > ul.key li div span.appointment {
               background-color: #148c78; }
-            /* line 225, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+            /* line 221, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
             main.container aside > ul.key li div span.group {
               background-color: #c88c3c; }
-      /* line 233, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          /* line 226, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          main.container aside > ul.key li div i {
+            font-size: inherit;
+            width: 12px;
+            height: 12px;
+            margin-top: 2px;
+            margin-right: 6px;
+            text-align: center; }
+      /* line 238, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
       main.container aside > ul li div {
         padding: 6px 8px;
         background-color: rgba(200, 200, 200, 0.2);
         border-bottom: 1px solid #141414; }
-      /* line 239, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 243, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        main.container aside > ul li div > i {
+          font-size: 22px;
+          margin-top: -2px; }
+      /* line 249, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
       main.container aside > ul li ul {
         list-style: none;
         padding: 0; }
-        /* line 243, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+        /* line 253, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
         main.container aside > ul li ul li {
           padding: 0px 12px;
           background-color: rgba(200, 200, 200, 0.1);
           border-bottom: 1px solid rgba(200, 200, 200, 0.2);
           display: flex;
           align-items: center; }
-          /* line 250, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          /* line 260, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
           main.container aside > ul li ul li:after {
             content: " ";
             clear: both;
             display: block;
             height: 0px;
             opacity: 0; }
-          /* line 258, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          /* line 268, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
           main.container aside > ul li ul li span {
             display: block;
             float: left; }
-          /* line 263, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+          /* line 273, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
           main.container aside > ul li ul li .checkbox {
             width: 12px;
             height: 12px;
@@ -225,7 +236,7 @@ main.container {
             box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
             margin-right: 8px;
             position: relative; }
-            /* line 272, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+            /* line 282, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
             main.container aside > ul li ul li .checkbox i {
               font-size: 14px;
               display: block;
@@ -233,112 +244,120 @@ main.container {
               bottom: -2px;
               left: 1px; }
 
-/* line 287, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 297, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .pagination {
   float: right;
   margin: 17px 0px 0px 0px; }
-  /* line 291, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 301, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   .pagination li a {
     font-size: 13px;
     padding: 4px 6px;
     background-color: rgba(255, 255, 255, 0.4);
     color: #646464;
     border: 1px solid #646464; }
-  /* line 299, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 309, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   .pagination .pagination {
     float: right;
     margin: 17x 0px 0px 0px; }
-    /* line 302, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+    /* line 312, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
     .pagination .pagination li a {
       font-size: 13px;
       padding: 4px 6px;
       background-color: rgba(255, 255, 255, 0.4);
       color: #646464;
       border: 1px solid #646464; }
-  /* line 310, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 320, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   .pagination .left-col {
     border-right: solid 1px lightgrey; }
 
-/* line 315, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 325, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 #tutor-icon {
   height: 100px; }
 
-/* line 319, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 329, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .center {
   text-align: center; }
 
-/* line 323, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 333, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .right-align {
   text-align: right !important; }
 
-/* line 327, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 337, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .apt-info {
   border-left: solid 1px lightgrey; }
 
-/* line 331, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 341, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .tut-details em {
   display: block; }
 
-/* line 335, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 345, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .tut-details {
   padding-left: 15px; }
 
-/* line 339, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 349, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .apt-details {
   padding-left: 0px;
   padding-top: 10px; }
-  /* line 343, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 353, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   .apt-details li {
     list-style-type: none;
     font-weight: 700; }
 
-/* line 349, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 359, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .stu-img {
   height: 75px;
   width: 75px;
   float: left; }
-  /* line 353, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+  /* line 363, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
   .stu-img img {
     height: inherit;
     width: inherit; }
 
-/* line 359, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 369, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .stu-name {
   display: block; }
 
-/* line 363, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 373, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .form-container {
   margin: 20px 0px 0px 0px; }
 
-/* line 367, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 377, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .file-list {
   list-style-type: none;
   padding-left: 0px; }
 
-/* line 372, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 382, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .toolbarButton {
   background-color: #646561;
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/* line 378, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 388, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .toolbarButton:hover {
   background-color: #8b8b88; }
 
-/* line 382, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 392, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .open .toolbarButton {
   background-color: #8b8b88 !important; }
 
-/* line 386, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 396, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .selectedFilter {
   color: #c5c5c3; }
 
-/* line 391, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 401, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .tut-name {
   margin-top: 20px; }
 
-/* line 395, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+/* line 405, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
 .tut-detail-list {
   list-style-type: none; }
+
+/* line 409, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+.right {
+  float: right; }
+
+/* line 413, /Users/joshkennelly/Developer/TutorTrac2/css/template.scss */
+.left {
+  float: left; }
 
 /*# sourceMappingURL=template.css.map */

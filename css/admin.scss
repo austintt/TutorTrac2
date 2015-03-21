@@ -8,6 +8,10 @@
         text-align: center;
         border-right: solid 1px grey;
         color: grey;
+        
+        a {
+            color: grey;
+        }
     }
     .tab.selected {
         font-weight: 700;
@@ -38,6 +42,14 @@ main.admin {
     max-height: 250px;
     overflow: scroll;
 }
+
+.filter-form.classes {
+    max-height: 500px;
+}
+
+.filter-form.add {
+    max-height: 80px;
+}
 .course-filters {
     border-top: solid 1px lightgray;
 }
@@ -53,7 +65,7 @@ main.admin {
     border-bottom: solid 1px lightgrey;
 }
 .tut-list {
-    max-height: 440px;
+    max-height: 550px;
     overflow: scroll;
 }
 /* Small Devices, Tablets */
@@ -122,9 +134,9 @@ main.admin {
 }
 
 .modal-dialog.big {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-    width: auto !important;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1000px;
 }
 
 .btn-edit {
@@ -180,4 +192,41 @@ main.admin {
 .container-set {
     padding-bottom: 30px;
     border-top: solid 1px grey;
+
+.cell.video {
+    padding: 5px;   
+}
+
+.video-main {
+    padding-top: 25px;
+}
+
+.topics {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: -15px 0px 0px 0px; 
+    
+    li {
+          font-size: 12px;
+          display: inline-block;
+          background-color: white;
+          color: darkgrey;
+          border-radius: 4px;
+          padding: 0px 2px 0px 2px;
+    }
+}
+
+.vid-info {
+        color: white;
+    text-align: left;
+}
+
+.delete-video {
+    font-size: 12px;
+    text-align: right;
+    
+    a {
+        color: white;
+    }
+
 }

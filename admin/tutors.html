@@ -52,7 +52,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#" target="_blank">Tools</a>
                     </li>
-                    <li><a href="#" target="_blank">Profile</a>
+                    <li><a id="profile" target="_blank">Profile</a>
                     </li>
                 </ul>
 
@@ -61,9 +61,9 @@
     </div>
     <div class="toolbar">
         <div class="tab selected col-xs-3 col-sm-2">TUTORS</div>
-        <div class="tab col-xs-3 col-sm-2">CENTERS</div>
-        <div class="tab col-xs-3 col-sm-2">VIDEOS</div>
-        <div class="tab col-xs-3 col-sm-2">TOOLS</div>
+        <div class="tab col-xs-3 col-sm-2"><a href="centers.html">CENTERS</a></div>
+        <div class="tab col-xs-3 col-sm-2"><a href="videos.html">VIDEOS</a></div>
+        <div class="tab col-xs-3 col-sm-2"><a href="tools.html">TOOLS</a></div>
     </div>
     <div class="search-bar">
         <div class="col-xs-10 col-sm-4">
@@ -108,7 +108,7 @@
             <div class="course-filters">
                 <form action="">
                     <h4>Courses <input type="checkbox"></h4>
-                    <div class="checkbox filter-form">
+                    <div class="checkbox filter-form classes">
                         <label>
                             <input type="checkbox">CS 124
                         </label>
@@ -188,7 +188,7 @@
         <div class="col-sm-8 tut-list">
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -199,7 +199,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -210,7 +210,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -221,7 +221,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -232,7 +232,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -243,7 +243,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -254,7 +254,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -265,7 +265,7 @@
 
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -275,7 +275,7 @@
             </div>
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -285,7 +285,7 @@
             </div>
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -295,7 +295,7 @@
             </div>
             <div class="tut">
                 <div class="pull-left">
-                    <img class="tut-profile" src="../images/profileIcon.png" alt="">
+                    <img class="tut-profile" src="../assets/voldemort.png" style="border-radius: 50%" alt="">
                 </div>
                 <div class="">
                     <h4>Tom Riddle</h4>
@@ -323,12 +323,17 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-sm-6">
-                            <img class="tut-modal-img pull-left" src="../images/profileIcon.png" alt="">
+                            <img style="padding-right: 10px; border-radius: 50%;" class="tut-modal-img pull-left" src="../assets/voldemort.png" alt="">
                             <h4 class="tut-name">Tom Riddle</h4>
-                            <h5>shallnotbenamed@byui.edu</h5>
+                            <h5><span class="glyphicon glyphicon-envelope"></span> shallnotbenamed@byui.edu</h5>
+                            <h5><span class="glyphicon glyphicon-phone"></span> 555-555-5555</h5>
                         </div>
-                        <div class="col-sm-6">
-                            <a href="#" class="btn btn-primary">? Add Appointment ?</a>
+                    </div>
+                    <div class='row'>
+                        <div class="col-xs-12">
+                            <h4>Major/Strengths</h4>
+                            <em>Computer Science</em>
+                            Strengths here
                         </div>
                     </div>
                     <div class="row">
@@ -349,29 +354,147 @@
                     </div>
                     <div class='row'>
                         <div class="col-xs-12">
-                            <h4>Schedule</h4>
-                            Calendar Here
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class="col-xs-12">
-                            <h4>Strengths/Major</h4>
-                            <em>Computer Science</em>
-                            Strengths here
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class="col-xs-12">
                             <h4>Feedback</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit placeat repellendus, consequatur iste, doloremque a aliquam ea earum, illo, dolores iusto porro totam! Consectetur accusamus culpa, similique deserunt quae eligendi.
                             </p>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Max Hours</h4>
+                            <p>20 Hours</p>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="col-xs-12">
+                            <h4>Schedule</h4>
+                            <main class="container" style="margin: 0;">
+        <header>
+            <div>&nbsp;</div>
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+        </header>
+        <section>
+            <header>8:00 am</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>9:00 am</header>
+            <div><span class="appointment scheduled">9:00 am - CS 124 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment">9:00 am - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment scheduled">9:00 am - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>10:00 am</header>
+            <div></div>
+            <div></div>
+            <div><span class="appointment scheduled">10:00 am - CS 124 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment scheduled">10:00 am - CS 124 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>11:00 am</header>
+            <div><span class="course">11:00 am - CS 470 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="course">11:00 am - CS 470 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="course">11:00 am - CS 470 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>12:00 pm</header>
+            <div><span class="course">12:00 pm - CS 364 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="course">12:00 pm - CS 364 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="course">12:00 pm - CS 364 <i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>1:00 pm</header>
+            <div><span class="appointment scheduled">1:00 pm - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment scheduled">1:00 pm - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment">1:00 am - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>2:00 pm</header>
+            <div><span class="appointment scheduled">2:00 pm - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment">2:00 pm - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+            <div><span class="appointment">2:00 pm - CS 124<i class="fa fa-user right"></i></span></div>
+            <div></div>
+        </section>
+        <section>
+            <header>3:00 pm</header>
+            <div></div>
+            <div><span class="group scheduled">3:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div><span class="group">3:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>4:00 pm</header>
+            <div></div>
+            <div><span class="group scheduled">4:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div><span class="group">4:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>5:00 pm</header>
+            <div></div>
+            <div><span class="group scheduled">5:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div><span class="group scheduled">5:00 pm - CS 165<i class="fa fa-users right"></i></span></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>6:00 pm</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section>
+            <header>7:00 pm</header>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
+                    <button class="btn btn-primary">Add Appointment</button>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Delete Tutor</button>
+                    <button type="button" class="btn btn-danger left" data-dismiss="modal">Delete Tutor</button>
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -443,6 +566,7 @@
             <!-- /.modal-dialog -->
         </div>
         <!-- /.modal -->
+    </div>
 </body>
 <script type="text/javascript">
     $(document).ready(function () {
