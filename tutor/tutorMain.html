@@ -245,14 +245,15 @@
 -->
                <li><div>Scheduled Appointments<i class="fa fa-angle-down right"></i></div></li>
                <li><div>My Appointments<i class="fa fa-angle-down right"></i></div></li>
+               <li><div>Course Schedule<i class="fa fa-angle-down right"></i></div></li>
             </ul>
             <ul class="key">
                <li><div>Calendar Key</div></li>
                 <li><div><span class="course"></span>Course Schedule</div></li>
                 <li><div><span class="appointment"></span>Tutoring Appointments</div></li>
                 <li><div><span class="group"></span>Study Group Appointments</div></li>
-                <li><div><i class="fa fa-user"></i>Individual Appointment</div></li>
-                <li><div><i class="fa fa-users"></i>Individual Appointment</div></li>
+                <li><div><i class="fa fa-user"></i>1-on-1 Appointment</div></li>
+                <li><div><i class="fa fa-users"></i>Group Appointment</div></li>
             </ul>
         </aside>
     </main>
@@ -278,6 +279,7 @@
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Group</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Study Group</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">One-on-one</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Drop-in</a></li>
                               </ul>
@@ -311,10 +313,24 @@
                               </ul>
                             </div>
                             
-                            <!--TIME-->
+                            <!--Start TIME-->
                             <div class="dropdown appntCreation">
                              <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                <span class="btnText">Time:</span> <span>10:00am</span>
+                                <span class="btnText">Start Time:</span> <span>10:00am</span>
+                                <span class="caret right"></span>
+                              </button>
+                              <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 364</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 124</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 308</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CS 365</a></li>
+                              </ul>
+                            </div>
+                            
+                             <!--Start TIME-->
+                            <div class="dropdown appntCreation">
+                             <button class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <span class="btnText">End Time:</span> <span>11:00am</span>
                                 <span class="caret right"></span>
                               </button>
                               <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
