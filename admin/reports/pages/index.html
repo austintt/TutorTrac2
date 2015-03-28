@@ -21,7 +21,7 @@
     <link href="../dist/css/timeline.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    
+
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
@@ -29,9 +29,9 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    
+
     <!-- Optional theme -->
-<!--    <link rel="stylesheet" href="../../../css/bootstrap.css">-->
+    <!--    <link rel="stylesheet" href="../../../css/bootstrap.css">-->
     <link rel="stylesheet" href="../../../css/template.css" />
     <link rel="stylesheet" href="../../../css/admin.css">
 
@@ -51,34 +51,37 @@
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar navbar-default navbar-fixed-top" style="background-color: RGB(62, 63, 58); height: 60px;">
-        <div id="headerContainer" class="container" style="height: 100%">
-            <div class="navbar-header" style="height: 100%;">
-                <a href="../" class="navbar-brand" style="color: RGB(255, 255, 255); padding: 20px; height: 100%;">TutorTrac 2</a>
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-main" style="height: 100%">
+                <div id="headerContainer" class="container" style="height: 100%">
+                    <div class="navbar-header" style="height: 100%;">
+                        <a href="../" class="navbar-brand" style="color: RGB(255, 255, 255); padding: 20px; height: 100%;">TutorTrac 2</a>
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar-main" style="height: 100%">
 
-                <ul class="nav navbar-nav navbar-right" style="height: 100%">
-                    <li style="height: 100%"><a href="#" target="_blank" style="color: RGB(152, 151, 139); text-transform: uppercase; font-size: 10px; font-weight: bold; height: 100%; padding: 20px;">Profile</a>
-                    </li>
-                </ul>
+                        <ul class="nav navbar-nav navbar-right" style="height: 100%">
+                            <li style="height: 100%"><a href="#" target="_blank" style="color: RGB(152, 151, 139); text-transform: uppercase; font-size: 10px; font-weight: bold; height: 100%; padding: 20px;">Profile</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="toolbar">
-        <div class="tab col-xs-3 col-sm-2"><a href="../../tutors.html">TUTORS</a></div>
-        <div class="tab col-xs-3 col-sm-2"><a href="../../centers.html">CENTERS</a></div>
-        <div class="tab col-xs-3 col-sm-2"><a href="../../videos.html">VIDEOS</a></div>
-        <div class="tab selected col-xs-3 col-sm-2">TOOLS</div>
-        <div class="tab selected tab-settings col-xs-3 col-sm-2 pull-right">
-            <a href="../../settings.html"><span class="glyphicon glyphicon-cog settings-icon" aria-hidden="true"></span></a>
-        </div>
-    </div>
+            <div class="toolbar">
+                <div class="tab col-xs-3 col-sm-2"><a href="../../tutors.html">TUTORS</a>
+                </div>
+                <div class="tab col-xs-3 col-sm-2"><a href="../../centers.html">CENTERS</a>
+                </div>
+                <div class="tab col-xs-3 col-sm-2"><a href="../../videos.html">VIDEOS</a>
+                </div>
+                <div class="tab selected col-xs-3 col-sm-2">TOOLS</div>
+                <div class="tab selected tab-settings col-xs-3 col-sm-2 pull-right">
+                    <a href="../../settings.html"><span class="glyphicon glyphicon-cog settings-icon" aria-hidden="true"></span></a>
+                </div>
+            </div>
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
@@ -122,11 +125,11 @@
                         <li>
                             <a href="announcements.html"><i class="fa fa-bullhorn fa-fw"></i> Announcements</a>
                         </li>
-                        
-                        
-                            <!-- /.nav-second-level -->
-                    
-                        
+
+
+                        <!-- /.nav-second-level -->
+
+
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -137,7 +140,21 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Tutoring Center Reports</h1>
+                    <h1 class="page-header pull-left">Tutoring Center Reports</h1>
+                    <div class="dropdown appntCreation open pull-right" style="margin-top:50px;">
+                        <button style="width:150px;" class="btn btn-info dropdown-toggle appntmntCreateBtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            <span class="btnText"><span>Tutoring Center</span>
+                            <span class="caret right"></span>
+                        </button>
+                        <ul class="dropdown-menu appntmntCreateMenu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Math Study Center</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Writing Center</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PPC...</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -296,7 +313,7 @@
                                         <table class="table table-bordered table-hover table-striped">
                                             <thead>
                                                 <tr>
-                                                    
+
                                                     <th>Month</th>
                                                     <th>Filled</th>
                                                     <th>Unfilled</th>
@@ -304,49 +321,49 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    
+
                                                     <td>August</td>
                                                     <td>0</td>
                                                     <td>0</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>September</td>
                                                     <td>432</td>
                                                     <td>54</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>October</td>
                                                     <td>756</td>
                                                     <td>57</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>November</td>
                                                     <td>854</td>
                                                     <td>43</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>December</td>
                                                     <td>345</td>
                                                     <td>89</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>January</td>
                                                     <td>489</td>
                                                     <td>111</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>February</td>
                                                     <td>756</td>
                                                     <td>233</td>
                                                 </tr>
                                                 <tr>
-                                                    
+
                                                     <td>March</td>
                                                     <td>624</td>
                                                     <td>123</td>
@@ -366,7 +383,7 @@
                         </div>
                         <!-- /.panel-body -->
                     </div>
-                    
+
                 </div>
                 <!-- /.col-lg-8 -->
                 <div class="col-lg-4">
@@ -412,9 +429,9 @@
                             <a href="#" class="btn btn-default btn-block">View All Metrics</a>
                         </div>
                         <!-- /.panel-body -->
-                    
-                    <!-- /.panel -->
-                
+
+                        <!-- /.panel -->
+
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
@@ -428,7 +445,7 @@
                         </div>
                         <!-- /.panel-body -->
                     </div>
-                    
+
                 </div>
                 <!-- /.col-lg-4 -->
             </div>
