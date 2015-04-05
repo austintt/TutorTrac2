@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutor Trac 2</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/typed.js"></script>
+
+
+    <!-- Calendar -->
+    <link href='css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.cssfullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='lib/moment.min.js'></script>
+    <script src='lib/fullcalendar.min.js'></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/template.css" />
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div id="headerContainer" class="container">
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">TutorTrac 2</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main class="container" style="margin-top:50px;">
+        <div class="row">
+            <div class="col-sm-12" style="text-align:center">
+                <h1>Tutoring Center Name</h1>
+                <hr>
+                <h2>Check In/Out</h2>
+                <p>Please enter your and click Submit to check in or out of the tuoring center.</p>
+                <div style="width: 300px; margin-left:auto;margin-right:auto;">
+                    <input type="text" class="form-control" placeholder="I-Number" aria-describedby="basic-addon1">
+                    <br>
+                    <button id="submit" class="btn btn-success" style="width:100%">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- MODAL -->
+    <div id="checkedIn" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> 
+                    </button>
+                    <h4 style="text-align:center" class="modal-title">You are checked In!</h4>
+                </div>
+                <div class="modal-body">
+                    <div style="text-align:center" class="row">
+                        <p>Your tutor will be with you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                
+
+
+</body>
+<script type="text/javascript">
+    $('#submit').click(function() {
+        $('#checkedIn').modal();
+    });
+</script>
+
+</html>
